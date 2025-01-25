@@ -1,0 +1,25 @@
+{
+    "meta": [
+        {
+            "name": "meta-ccos-avn",
+            "url": "git@bitbucket.org:ssong96/meta-ccos-avn.git",
+            "recipes": [
+                {
+                    "id": "asm",
+                    "name": "audiostreamingmanager",
+                    "url": "git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git"
+                },
+                {
+                    "id": "CCM",
+                    "name": "cinemocloudmanager",
+                    "url": "git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git"
+                },
+                {
+                    "id": "CPS",
+                    "name": "cinemoplayerservice",
+                    "url": "git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,604 @@
+2025-01-23 20:26:27,236 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-23 20:26:27,236 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-23 20:26:27,243 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-23 20:26:27,247 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 20:26:27,250 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-23 20:26:27,254 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-23 20:29:25,793 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-23 20:29:25,793 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-23 20:29:25,799 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-23 20:29:25,803 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 20:29:25,808 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-23 20:29:25,810 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-23 21:38:38,864 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-23 21:38:38,864 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-23 21:38:38,868 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-23 21:38:38,870 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 21:38:38,873 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-23 21:38:38,882 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-23 21:39:16,891 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-23 21:39:16,891 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-23 21:39:16,895 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-23 21:39:16,899 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 21:39:16,902 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-23 21:39:16,904 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-23 21:41:38,735 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-23 21:41:38,735 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-23 21:41:38,738 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-23 21:41:38,741 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 21:41:38,743 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-23 21:41:38,745 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-23 21:43:04,078 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-23 21:43:04,078 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-23 21:43:04,081 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-23 21:43:04,087 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 21:43:04,089 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-23 21:43:04,091 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-23 21:44:59,637 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-23 21:44:59,637 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-23 21:44:59,643 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-23 21:44:59,647 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 21:44:59,649 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-23 21:44:59,651 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-23 21:45:54,556 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-23 21:45:54,556 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-23 21:45:54,557 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: []
+2025-01-23 21:45:54,557 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 2, Branches: 0, Valid: False
+2025-01-23 21:45:54,557 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: False
+2025-01-23 21:58:56,845 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-23 21:58:56,845 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-23 21:58:56,850 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-23 21:58:56,853 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 21:58:56,857 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-23 21:58:56,860 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-23 22:01:00,496 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-23 22:01:00,497 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-23 22:01:00,500 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-23 22:01:00,505 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 22:01:00,512 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-23 22:01:00,515 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-23 22:04:47,386 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-23 22:04:47,410 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 22:04:47,420 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-23 22:04:47,421 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-23 22:04:47,424 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-23 22:04:47,427 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 22:04:47,430 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-23 22:04:47,433 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-23 22:04:53,382 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 22:04:56,903 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 22:04:58,259 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 22:04:58,469 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 22:04:58,670 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 22:04:59,390 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 22:04:59,590 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 22:04:59,819 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 22:05:00,002 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 22:05:00,200 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 23:14:43,344 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-23 23:14:43,372 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 23:14:43,384 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-23 23:14:43,384 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-23 23:14:43,389 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-23 23:14:43,392 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:14:43,395 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-23 23:14:43,396 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-23 23:15:29,797 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: 
+2025-01-23 23:15:29,797 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:15:31,616 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Name, text: 
+2025-01-23 23:15:31,617 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:15:32,737 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: 
+2025-01-23 23:15:32,737 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:15:34,846 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: b
+2025-01-23 23:15:34,846 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:34,846 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:35,019 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: bn
+2025-01-23 23:15:35,019 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:35,019 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:35,043 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: bnm
+2025-01-23 23:15:35,043 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:35,043 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:35,157 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: bnmb
+2025-01-23 23:15:35,157 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:35,157 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:35,626 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: bnm
+2025-01-23 23:15:35,626 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:35,626 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:35,842 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: bn
+2025-01-23 23:15:35,842 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:35,842 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:36,013 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: b
+2025-01-23 23:15:36,013 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:36,013 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:36,168 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: 
+2025-01-23 23:15:36,169 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:15:36,878 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: k
+2025-01-23 23:15:36,878 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:15:36,878 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:15:37,004 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: ko
+2025-01-23 23:15:37,005 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:15:37,005 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:15:38,482 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: kor
+2025-01-23 23:15:38,482 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:15:38,483 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:15:39,708 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: ko
+2025-01-23 23:15:39,708 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:15:39,709 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:15:39,903 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: k
+2025-01-23 23:15:39,903 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:15:39,903 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:15:40,087 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: 
+2025-01-23 23:15:40,088 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:15:41,848 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: k
+2025-01-23 23:15:41,849 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:15:41,849 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:15:41,943 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: ko
+2025-01-23 23:15:41,943 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:15:41,944 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:15:42,538 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: k
+2025-01-23 23:15:42,538 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:15:42,538 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:15:42,726 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: 
+2025-01-23 23:15:42,727 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:15:43,290 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: g
+2025-01-23 23:15:43,290 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:43,290 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:43,291 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: gj
+2025-01-23 23:15:43,291 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:43,291 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:43,314 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: gjh
+2025-01-23 23:15:43,314 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:43,314 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:43,489 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: gjhg
+2025-01-23 23:15:43,489 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:43,489 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:43,568 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: gjhgj
+2025-01-23 23:15:43,568 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:43,568 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:43,596 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: gjhgjh
+2025-01-23 23:15:43,597 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:43,597 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:43,750 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: gjhgjhg
+2025-01-23 23:15:43,751 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:43,751 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:43,855 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: gjhgjhgj
+2025-01-23 23:15:43,855 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:43,855 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:43,889 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: gjhgjhgjh
+2025-01-23 23:15:43,889 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:43,889 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:44,217 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: gjhgjhgj
+2025-01-23 23:15:44,218 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:44,218 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:44,597 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: gjhgjhg
+2025-01-23 23:15:44,597 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:44,598 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:44,621 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: gjhgjh
+2025-01-23 23:15:44,621 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:44,621 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:44,645 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: gjhgj
+2025-01-23 23:15:44,646 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:44,646 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:44,670 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: gjhg
+2025-01-23 23:15:44,670 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:44,670 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:44,694 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: gjh
+2025-01-23 23:15:44,694 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:44,694 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:44,718 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: gj
+2025-01-23 23:15:44,718 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:44,718 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:44,743 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: g
+2025-01-23 23:15:44,743 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:44,743 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:44,768 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: 
+2025-01-23 23:15:44,768 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:15:46,924 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: k
+2025-01-23 23:15:46,924 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:15:46,924 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:15:46,989 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: ko
+2025-01-23 23:15:46,990 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:15:46,990 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:15:47,760 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: k
+2025-01-23 23:15:47,760 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:15:47,761 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:15:47,963 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: 
+2025-01-23 23:15:47,963 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:15:49,175 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: y
+2025-01-23 23:15:49,175 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:15:49,175 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:15:50,545 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: 
+2025-01-23 23:15:50,545 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:15:53,464 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: y
+2025-01-23 23:15:53,465 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:15:53,465 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:15:53,898 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: yu
+2025-01-23 23:15:53,899 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:53,899 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:54,594 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: y
+2025-01-23 23:15:54,594 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:15:54,595 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:15:56,227 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: ya
+2025-01-23 23:15:56,227 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:15:56,227 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:15:56,741 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: y
+2025-01-23 23:15:56,742 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:15:56,742 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:15:56,901 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: 
+2025-01-23 23:15:56,901 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:15:58,173 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: s
+2025-01-23 23:15:58,174 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:15:58,174 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:15:58,404 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: sp
+2025-01-23 23:15:58,404 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:15:58,404 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:15:59,055 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spo
+2025-01-23 23:15:59,055 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:15:59,055 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:16:00,326 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spoi
+2025-01-23 23:16:00,327 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:00,327 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:01,422 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spo
+2025-01-23 23:16:01,423 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:16:01,423 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:16:03,560 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spot
+2025-01-23 23:16:03,561 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:16:03,561 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:16:03,624 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spoti
+2025-01-23 23:16:03,624 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:16:03,624 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:16:05,058 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotif
+2025-01-23 23:16:05,058 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:16:05,058 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:16:05,336 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotify
+2025-01-23 23:16:05,336 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:16:05,336 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:16:06,090 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotify_
+2025-01-23 23:16:06,091 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:06,091 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:06,211 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotify_f
+2025-01-23 23:16:06,211 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:06,211 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:06,355 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotify_fe
+2025-01-23 23:16:06,355 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:06,355 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:06,812 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotify_f
+2025-01-23 23:16:06,812 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:06,812 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:06,987 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotify_
+2025-01-23 23:16:06,988 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:06,988 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:07,142 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotify
+2025-01-23 23:16:07,142 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:16:07,142 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:16:07,293 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotif
+2025-01-23 23:16:07,294 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:16:07,294 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:16:07,553 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotifs
+2025-01-23 23:16:07,553 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:07,553 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:07,563 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotifsa
+2025-01-23 23:16:07,564 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:07,564 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:07,608 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotifsad
+2025-01-23 23:16:07,609 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:07,609 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:07,633 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotifsadj
+2025-01-23 23:16:07,633 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:07,634 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:07,684 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotifsadjf
+2025-01-23 23:16:07,684 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:07,684 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:07,728 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotifsadjfl
+2025-01-23 23:16:07,728 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:07,728 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:07,752 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotifsadjflk
+2025-01-23 23:16:07,752 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:07,752 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:08,035 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotifsadjfl
+2025-01-23 23:16:08,035 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:08,035 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:08,416 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotifsadjf
+2025-01-23 23:16:08,416 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:08,416 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:08,443 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotifsadj
+2025-01-23 23:16:08,443 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:08,443 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:08,468 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotifsad
+2025-01-23 23:16:08,468 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:08,468 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:08,493 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotifsa
+2025-01-23 23:16:08,494 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:08,494 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:08,517 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotifs
+2025-01-23 23:16:08,518 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:08,518 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:08,543 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spotif
+2025-01-23 23:16:08,543 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:16:08,543 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:16:08,568 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spoti
+2025-01-23 23:16:08,568 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:16:08,568 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:16:08,593 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: spot
+2025-01-23 23:16:08,593 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:16:08,593 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:16:08,618 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: 
+2025-01-23 23:16:08,618 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:16:09,828 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: j
+2025-01-23 23:16:09,828 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:09,828 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:09,877 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: jl
+2025-01-23 23:16:09,878 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:09,878 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:09,887 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: jls
+2025-01-23 23:16:09,887 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:09,887 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:09,897 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: jlsk
+2025-01-23 23:16:09,897 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:09,897 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:10,005 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: jlskd
+2025-01-23 23:16:10,005 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:10,005 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:10,075 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: jlskdf
+2025-01-23 23:16:10,076 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:10,076 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:10,115 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: jlskdfj
+2025-01-23 23:16:10,115 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:10,115 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:10,234 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: jlskdfjk
+2025-01-23 23:16:10,234 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:10,234 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:10,249 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: jlskdfjk;
+2025-01-23 23:16:10,249 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:10,249 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:10,556 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: jlskdfjk
+2025-01-23 23:16:10,557 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:10,557 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:10,741 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: jlskdfj
+2025-01-23 23:16:10,741 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:10,742 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:10,908 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: jlskdf
+2025-01-23 23:16:10,908 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:10,909 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:11,078 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: jlskd
+2025-01-23 23:16:11,078 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:11,078 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:11,248 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: jlsk
+2025-01-23 23:16:11,249 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:11,249 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:11,409 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: jls
+2025-01-23 23:16:11,409 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:11,409 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:11,573 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: jl
+2025-01-23 23:16:11,574 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:11,574 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:11,756 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: j
+2025-01-23 23:16:11,757 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:11,757 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:11,915 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: 
+2025-01-23 23:16:11,915 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:16:13,689 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: a
+2025-01-23 23:16:13,690 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:16:13,690 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:16:13,712 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: as
+2025-01-23 23:16:13,712 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:16:13,712 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:16:13,807 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: asd
+2025-01-23 23:16:13,808 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:13,808 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:13,905 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: asdk
+2025-01-23 23:16:13,906 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:13,906 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:13,914 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: asdkf
+2025-01-23 23:16:13,914 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:13,914 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:14,412 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: asdk
+2025-01-23 23:16:14,413 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:14,413 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:14,565 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: asd
+2025-01-23 23:16:14,566 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:14,566 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:14,715 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: as
+2025-01-23 23:16:14,716 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:16:14,716 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:16:14,866 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: a
+2025-01-23 23:16:14,866 - widgets.auto_pr_pages.selection_page - DEBUG - Found 1 matching branches
+2025-01-23 23:16:14,867 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 1 branches
+2025-01-23 23:16:15,016 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: 
+2025-01-23 23:16:15,016 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:16:15,785 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: r
+2025-01-23 23:16:15,785 - widgets.auto_pr_pages.selection_page - DEBUG - Found 2 matching branches
+2025-01-23 23:16:15,785 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:16:15,866 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: rk
+2025-01-23 23:16:15,866 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:15,866 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:15,999 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: rks
+2025-01-23 23:16:16,000 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:16,000 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:16,084 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: rksk
+2025-01-23 23:16:16,084 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:16,084 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:16,272 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: rkske
+2025-01-23 23:16:16,273 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:16,273 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:16,279 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: rkskek
+2025-01-23 23:16:16,280 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:16,280 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:16,484 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: rkskekk
+2025-01-23 23:16:16,484 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:16,484 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:16,783 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: rkskekkk
+2025-01-23 23:16:16,783 - widgets.auto_pr_pages.selection_page - DEBUG - Found 0 matching branches
+2025-01-23 23:16:16,783 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 0 branches
+2025-01-23 23:16:26,354 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 23:16:42,637 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 23:16:45,364 - widgets.recipe_versions_tab - INFO - Finished loading recipe versions
+2025-01-23 23:16:58,785 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 23:17:01,660 - widgets.recipe_versions_tab - INFO - Finished loading recipe versions
+2025-01-23 23:17:02,626 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 23:17:05,922 - widgets.recipe_versions_tab - INFO - Finished loading recipe versions
+2025-01-23 23:17:25,392 - widgets.auto_pr_pages.selection_page - DEBUG - Filtering branches - type: Tag, text: 
+2025-01-23 23:17:25,392 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:30:37,334 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-23 23:30:37,357 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 23:30:37,363 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-23 23:30:37,364 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-23 23:30:37,367 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-23 23:30:37,370 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:30:37,372 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-23 23:30:37,375 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-23 23:31:05,828 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 23:31:08,537 - widgets.recipe_versions_tab - INFO - Finished loading recipe versions
+2025-01-23 23:32:59,750 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-23 23:32:59,777 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 23:32:59,785 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-23 23:32:59,786 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-23 23:32:59,788 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-23 23:32:59,792 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:32:59,795 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-23 23:32:59,796 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-23 23:35:03,007 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-23 23:35:03,031 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 23:35:03,039 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-23 23:35:03,039 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-23 23:35:03,043 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-23 23:35:03,047 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:35:03,052 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-23 23:35:03,054 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-23 23:36:35,696 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-23 23:36:35,720 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 23:36:35,728 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-23 23:36:35,729 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-23 23:36:35,733 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-23 23:36:35,736 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:36:35,739 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-23 23:36:35,740 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-23 23:40:21,523 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-23 23:40:21,546 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 23:40:21,553 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-23 23:40:21,553 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-23 23:40:21,555 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-23 23:40:21,558 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:40:21,560 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-23 23:40:21,562 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-23 23:40:55,190 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 23:40:58,100 - widgets.recipe_versions_tab - INFO - Finished loading recipe versions
+2025-01-23 23:41:01,404 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-23 23:41:01,405 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: []
+2025-01-23 23:41:01,405 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: []
+2025-01-23 23:41:01,405 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 0, Branches: 0, Valid: False
+2025-01-23 23:41:01,405 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: False
+2025-01-23 23:41:04,593 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-23 23:41:04,593 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-23 23:41:04,593 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['s6mobis_test_1']
+2025-01-23 23:41:04,594 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 2, Branches: 1, Valid: True
+2025-01-23 23:41:04,594 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-23 23:41:04,594 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-23 23:41:04,594 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['s6mobis_test_1']
+2025-01-23 23:41:04,594 - widgets.auto_pr_tab - INFO - Moving to version input with 2 recipes and 1 branches
+2025-01-23 23:41:04,594 - widgets.auto_pr_pages.version_input_page - INFO - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')] for branches: ['s6mobis_test_1']
+2025-01-23 23:41:04,595 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: s6mobis_test_1
+2025-01-23 23:41:04,595 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: s6mobis_test_1 with recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-23 23:42:46,503 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-23 23:42:46,532 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 23:42:46,539 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-23 23:42:46,540 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-23 23:42:46,543 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-23 23:42:46,546 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:42:46,549 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-23 23:42:46,552 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-23 23:43:25,755 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-23 23:43:25,756 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'cinemoplayerservice'), ('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-23 23:43:25,756 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['s6mobis_test_1', '@s6mobis']
+2025-01-23 23:43:25,756 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 3, Branches: 2, Valid: True
+2025-01-23 23:43:25,756 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-23 23:43:25,756 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'cinemoplayerservice'), ('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-23 23:43:25,757 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['s6mobis_test_1', '@s6mobis']
+2025-01-23 23:43:25,757 - widgets.auto_pr_tab - INFO - Moving to version input with 3 recipes and 2 branches
+2025-01-23 23:43:25,757 - widgets.auto_pr_pages.version_input_page - INFO - Updating recipes: [('meta-ccos-avn', 'cinemoplayerservice'), ('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')] for branches: ['s6mobis_test_1', '@s6mobis']
+2025-01-23 23:43:25,758 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: s6mobis_test_1
+2025-01-23 23:43:25,758 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: s6mobis_test_1 with recipes: [('meta-ccos-avn', 'cinemoplayerservice'), ('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-23 23:43:25,760 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: @s6mobis
+2025-01-23 23:43:25,761 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: @s6mobis with recipes: [('meta-ccos-avn', 'cinemoplayerservice'), ('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-23 23:43:35,667 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-23 23:43:35,667 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'cinemoplayerservice') in branch s6mobis_test_1
+2025-01-23 23:43:35,667 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-23 23:43:35,667 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-23 23:43:36,216 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-23 23:43:36,216 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'cinemoplayerservice') in branch s6mobis_test_1
+2025-01-23 23:43:36,216 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-23 23:43:36,216 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-23 23:43:36,437 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-23 23:43:36,438 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'cinemoplayerservice') in branch s6mobis_test_1
+2025-01-23 23:43:36,438 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-23 23:43:36,438 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-23 23:43:36,638 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-23 23:43:36,638 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'cinemoplayerservice') in branch s6mobis_test_1
+2025-01-23 23:43:36,638 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-23 23:43:36,638 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-23 23:43:36,936 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-23 23:43:36,936 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'cinemoplayerservice') in branch s6mobis_test_1
+2025-01-23 23:43:36,937 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-23 23:43:36,937 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-23 23:43:37,138 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-23 23:43:37,138 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'cinemoplayerservice') in branch s6mobis_test_1
+2025-01-23 23:43:37,138 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-23 23:43:37,138 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-23 23:43:37,347 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-23 23:43:37,347 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'cinemoplayerservice') in branch s6mobis_test_1
+2025-01-23 23:43:37,348 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-23 23:43:37,348 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-23 23:43:37,568 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-23 23:43:37,568 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'cinemoplayerservice') in branch s6mobis_test_1
+2025-01-23 23:43:37,568 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-23 23:43:37,568 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-23 23:43:37,765 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-23 23:43:37,765 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'cinemoplayerservice') in branch s6mobis_test_1
+2025-01-23 23:43:37,765 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-23 23:43:37,765 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-23 23:43:37,968 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-23 23:43:37,968 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'cinemoplayerservice') in branch s6mobis_test_1
+2025-01-23 23:43:37,968 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-23 23:43:37,968 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-23 23:43:38,187 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-23 23:43:38,187 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'cinemoplayerservice') in branch s6mobis_test_1
+2025-01-23 23:43:38,187 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-23 23:43:38,188 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-23 23:43:38,398 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-23 23:43:38,398 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'cinemoplayerservice') in branch s6mobis_test_1
+2025-01-23 23:43:38,398 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-23 23:43:38,399 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-23 23:43:38,588 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-23 23:43:38,588 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'cinemoplayerservice') in branch s6mobis_test_1
+2025-01-23 23:43:38,588 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-23 23:43:38,588 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-23 23:43:39,108 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-23 23:43:39,109 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'cinemoplayerservice') in branch s6mobis_test_1
+2025-01-23 23:43:39,109 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-23 23:43:39,109 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-23 23:43:39,308 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-23 23:43:39,308 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'cinemoplayerservice') in branch s6mobis_test_1
+2025-01-23 23:43:39,308 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-23 23:43:39,308 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-23 23:44:10,785 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-23 23:44:10,809 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-23 23:44:10,814 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-23 23:44:10,815 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-23 23:44:10,817 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-23 23:44:10,819 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-23 23:44:10,820 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-23 23:44:10,821 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-23 23:45:25,696 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-23 23:45:25,696 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'cinemoplayerservice')]
+2025-01-23 23:45:25,696 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['s6mobis_test_1', '@s6mobis']
+2025-01-23 23:45:25,696 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 3, Branches: 2, Valid: True
+2025-01-23 23:45:25,697 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-23 23:45:25,697 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'cinemoplayerservice')]
+2025-01-23 23:45:25,697 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['s6mobis_test_1', '@s6mobis']
+2025-01-23 23:45:25,697 - widgets.auto_pr_tab - INFO - Moving to version input with 3 recipes and 2 branches
+2025-01-23 23:45:25,697 - widgets.auto_pr_pages.version_input_page - INFO - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'cinemoplayerservice')] for branches: ['s6mobis_test_1', '@s6mobis']
+2025-01-23 23:45:25,697 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: s6mobis_test_1
+2025-01-23 23:45:25,697 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: s6mobis_test_1 with recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'cinemoplayerservice')]
+2025-01-23 23:45:25,698 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: @s6mobis
+2025-01-23 23:45:25,698 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: @s6mobis with recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'cinemoplayerservice')]
+2025-01-23 23:45:27,667 - widgets.auto_pr_tab - DEBUG - Moving to previous page from index 1

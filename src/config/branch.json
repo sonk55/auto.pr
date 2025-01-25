@@ -1,0 +1,20 @@
+{
+    "branches": [
+        {
+            "name": "@s6mobis",
+            "tags": [
+                "MASTER",
+                "KOR",
+                "EUR",
+                "USA",
+                "SPOTIFY"
+            ]
+        },
+        {
+            "name": "s6mobis_test_1",
+            "tags": [
+                "EUR"
+            ]
+        }
+    ]
+}

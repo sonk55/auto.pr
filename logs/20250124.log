@@ -1,0 +1,1479 @@
+2025-01-24 18:55:23,394 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 18:55:23,458 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 18:55:23,469 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 18:55:23,469 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 18:55:23,481 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 18:55:23,485 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 18:55:23,489 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-24 18:55:23,492 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 18:55:41,336 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 18:55:44,146 - widgets.recipe_versions_tab - INFO - Finished loading recipe versions
+2025-01-24 18:55:53,487 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 18:55:56,191 - widgets.recipe_versions_tab - INFO - Finished loading recipe versions
+2025-01-24 18:56:18,797 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 18:56:18,797 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'cinemoplayerservice'), ('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 18:56:18,797 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['s6mobis_test_1', '@s6mobis']
+2025-01-24 18:56:18,797 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 3, Branches: 2, Valid: True
+2025-01-24 18:56:18,797 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 18:56:18,797 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'cinemoplayerservice'), ('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 18:56:18,797 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['s6mobis_test_1', '@s6mobis']
+2025-01-24 18:56:18,797 - widgets.auto_pr_tab - INFO - Moving to version input with 3 recipes and 2 branches
+2025-01-24 18:56:18,797 - widgets.auto_pr_pages.version_input_page - INFO - Updating recipes: [('meta-ccos-avn', 'cinemoplayerservice'), ('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['s6mobis_test_1', '@s6mobis']
+2025-01-24 18:56:18,798 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: s6mobis_test_1
+2025-01-24 18:56:18,798 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: s6mobis_test_1 with recipes: [('meta-ccos-avn', 'cinemoplayerservice'), ('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 18:56:18,799 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: @s6mobis
+2025-01-24 18:56:18,799 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: @s6mobis with recipes: [('meta-ccos-avn', 'cinemoplayerservice'), ('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 18:56:20,988 - widgets.auto_pr_tab - DEBUG - Moving to previous page from index 1
+2025-01-24 19:50:03,506 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 19:50:03,541 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 19:50:03,551 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 19:50:03,552 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 19:50:03,555 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 19:50:03,561 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 19:50:03,564 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-24 19:50:03,565 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 19:50:17,333 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 19:50:17,334 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'cinemoplayerservice')]
+2025-01-24 19:50:17,334 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis', 's6mobis_test_1']
+2025-01-24 19:50:17,334 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 3, Branches: 2, Valid: True
+2025-01-24 19:50:17,334 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 19:50:17,334 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'cinemoplayerservice')]
+2025-01-24 19:50:17,334 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis', 's6mobis_test_1']
+2025-01-24 19:50:17,334 - widgets.auto_pr_tab - INFO - Moving to version input with 3 recipes and 2 branches
+2025-01-24 19:50:17,334 - widgets.auto_pr_pages.version_input_page - INFO - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'cinemoplayerservice')] for branches: ['@s6mobis', 's6mobis_test_1']
+2025-01-24 19:50:17,334 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: @s6mobis
+2025-01-24 19:50:17,334 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: @s6mobis with recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'cinemoplayerservice')]
+2025-01-24 19:50:17,335 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: s6mobis_test_1
+2025-01-24 19:50:17,336 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: s6mobis_test_1 with recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'cinemoplayerservice')]
+2025-01-24 19:50:18,983 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-24 19:50:18,983 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'audiostreamingmanager') in branch @s6mobis
+2025-01-24 19:50:18,983 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-24 19:50:18,984 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-24 19:50:21,206 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 19:50:23,931 - widgets.recipe_versions_tab - INFO - Finished loading recipe versions
+2025-01-24 19:50:26,444 - widgets.auto_pr_tab - DEBUG - Moving to previous page from index 1
+2025-01-24 19:50:28,584 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 19:50:28,585 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'cinemoplayerservice')]
+2025-01-24 19:50:28,585 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 19:50:28,585 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 3, Branches: 1, Valid: True
+2025-01-24 19:50:28,585 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 19:50:28,585 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'cinemoplayerservice')]
+2025-01-24 19:50:28,585 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 19:50:28,585 - widgets.auto_pr_tab - INFO - Moving to version input with 3 recipes and 1 branches
+2025-01-24 19:50:28,585 - widgets.auto_pr_pages.version_input_page - INFO - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'cinemoplayerservice')] for branches: ['@s6mobis']
+2025-01-24 19:50:28,585 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: @s6mobis
+2025-01-24 19:50:28,585 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: @s6mobis with recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'cinemoplayerservice')]
+2025-01-24 19:50:41,285 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-24 19:50:41,285 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'cinemocloudmanager') in branch @s6mobis
+2025-01-24 19:50:41,285 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-24 19:50:41,285 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-24 19:50:44,885 - widgets.auto_pr_tab - DEBUG - Moving to previous page from index 1
+2025-01-24 19:50:47,157 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 19:50:47,157 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 19:50:47,157 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 19:50:47,157 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 19:50:47,157 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 19:50:47,157 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 19:50:47,157 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 19:50:47,157 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 19:50:47,157 - widgets.auto_pr_pages.version_input_page - INFO - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 19:50:47,158 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: @s6mobis
+2025-01-24 19:50:47,158 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: @s6mobis with recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 19:50:52,235 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-24 19:50:52,235 - widgets.auto_pr_pages.version_input_page - DEBUG - All recipes in branch @s6mobis validated successfully
+2025-01-24 19:50:52,235 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: True
+2025-01-24 19:50:52,235 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: True
+2025-01-24 19:50:58,297 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 2
+2025-01-24 19:50:59,617 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 2
+2025-01-24 19:50:59,805 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 2
+2025-01-24 19:51:00,006 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 2
+2025-01-24 20:05:47,092 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 20:05:47,113 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:05:47,118 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 20:05:47,119 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 20:05:47,121 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 20:05:47,123 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 20:05:47,124 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-24 20:05:47,125 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 20:05:58,371 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:05:58,371 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: []
+2025-01-24 20:05:58,372 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:05:58,372 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 0, Branches: 1, Valid: False
+2025-01-24 20:05:58,372 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: False
+2025-01-24 20:06:00,991 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:06:00,991 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:06:00,991 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:06:00,991 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 20:06:00,991 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:06:00,991 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:06:00,992 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:06:00,992 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 20:06:00,992 - widgets.auto_pr_pages.version_input_page - INFO - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 20:06:00,992 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: @s6mobis
+2025-01-24 20:06:00,992 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: @s6mobis with recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:06:07,262 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-24 20:06:07,263 - widgets.auto_pr_pages.version_input_page - DEBUG - All recipes in branch @s6mobis validated successfully
+2025-01-24 20:06:07,263 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: True
+2025-01-24 20:06:07,263 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: True
+2025-01-24 20:06:44,862 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 2
+2025-01-24 20:07:58,554 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 20:07:58,580 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:07:58,587 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 20:07:58,588 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 20:07:58,590 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 20:07:58,593 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 20:07:58,595 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-24 20:07:58,597 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 20:08:09,369 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:08:09,370 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:08:09,370 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:08:09,370 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 20:08:09,370 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:08:09,370 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:08:09,370 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:08:09,370 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 20:08:09,371 - widgets.auto_pr_pages.version_input_page - INFO - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 20:08:09,371 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: @s6mobis
+2025-01-24 20:08:09,371 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: @s6mobis with recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:08:26,380 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-24 20:08:26,380 - widgets.auto_pr_pages.version_input_page - DEBUG - All recipes in branch @s6mobis validated successfully
+2025-01-24 20:08:26,380 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: True
+2025-01-24 20:08:26,381 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: True
+2025-01-24 20:08:26,381 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis version info: {('meta-ccos-avn', 'audiostreamingmanager'): ('0.0.2', '@s6mobis')}
+2025-01-24 20:08:26,381 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info: {'@s6mobis': {('meta-ccos-avn', 'audiostreamingmanager'): ('0.0.2', '@s6mobis')}}
+2025-01-24 20:08:26,382 - widgets.auto_pr_tab - WARNING - Failed to get commit messages for audiostreamingmanager: module 'git.git' has no attribute 'get_commit_messages_between_tags'
+2025-01-24 20:08:31,000 - widgets.auto_pr_tab - DEBUG - Moving to previous page from index 2
+2025-01-24 20:09:50,112 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-24 20:09:50,112 - widgets.auto_pr_pages.version_input_page - DEBUG - All recipes in branch @s6mobis validated successfully
+2025-01-24 20:09:50,112 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: True
+2025-01-24 20:09:50,113 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: True
+2025-01-24 20:09:50,113 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis version info: {('meta-ccos-avn', 'audiostreamingmanager'): ('0.0.4', '@s6mobis')}
+2025-01-24 20:09:50,113 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info: {'@s6mobis': {('meta-ccos-avn', 'audiostreamingmanager'): ('0.0.4', '@s6mobis')}}
+2025-01-24 20:09:50,114 - widgets.auto_pr_tab - WARNING - Failed to get commit messages for audiostreamingmanager: module 'git.git' has no attribute 'get_commit_messages_between_tags'
+2025-01-24 20:09:53,721 - widgets.auto_pr_tab - DEBUG - Moving to previous page from index 2
+2025-01-24 20:10:03,798 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 20:10:03,818 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:10:03,822 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 20:10:03,822 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 20:10:03,824 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 20:10:03,827 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 20:10:03,828 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-24 20:10:03,829 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 20:10:13,340 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:10:13,340 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:10:13,340 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:10:13,340 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 20:10:13,340 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:10:13,340 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:10:13,341 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:10:13,341 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 20:10:13,341 - widgets.auto_pr_pages.version_input_page - INFO - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 20:10:13,341 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: @s6mobis
+2025-01-24 20:10:13,341 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: @s6mobis with recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:10:18,053 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-24 20:10:18,053 - widgets.auto_pr_pages.version_input_page - DEBUG - All recipes in branch @s6mobis validated successfully
+2025-01-24 20:10:18,053 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: True
+2025-01-24 20:10:18,053 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: True
+2025-01-24 20:10:18,053 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis version info: {('meta-ccos-avn', 'audiostreamingmanager'): ('0.0.4', '@s6mobis')}
+2025-01-24 20:10:18,054 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info: {'@s6mobis': {('meta-ccos-avn', 'audiostreamingmanager'): ('0.0.4', '@s6mobis')}}
+2025-01-24 20:10:18,055 - widgets.auto_pr_tab - WARNING - Failed to get commit messages for audiostreamingmanager: module 'git.git' has no attribute 'get_commit_messages_between_tags'
+2025-01-24 20:13:37,315 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 20:13:37,343 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:13:37,348 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 20:13:37,348 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 20:13:37,350 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 20:13:37,352 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 20:13:37,353 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-24 20:13:37,354 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 20:13:45,709 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:13:45,710 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:13:45,711 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:13:45,711 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 20:13:45,711 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:13:45,712 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:13:45,712 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:13:45,712 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 20:13:45,712 - widgets.auto_pr_pages.version_input_page - INFO - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 20:13:45,712 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: @s6mobis
+2025-01-24 20:13:45,713 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: @s6mobis with recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:13:50,520 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-24 20:13:50,520 - widgets.auto_pr_pages.version_input_page - DEBUG - All recipes in branch @s6mobis validated successfully
+2025-01-24 20:13:50,520 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: True
+2025-01-24 20:13:50,520 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: True
+2025-01-24 20:13:50,520 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis version info: {('meta-ccos-avn', 'audiostreamingmanager'): ('0.0.4', '@s6mobis')}
+2025-01-24 20:13:50,520 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info: {'@s6mobis': {('meta-ccos-avn', 'audiostreamingmanager'): ('0.0.4', '@s6mobis')}}
+2025-01-24 20:18:52,706 - widgets.auto_pr_tab - DEBUG - Moving to previous page from index 2
+2025-01-24 20:18:58,497 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-24 20:18:58,498 - widgets.auto_pr_pages.version_input_page - DEBUG - All recipes in branch @s6mobis validated successfully
+2025-01-24 20:18:58,498 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: True
+2025-01-24 20:18:58,498 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: True
+2025-01-24 20:18:58,498 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis version info: {('meta-ccos-avn', 'audiostreamingmanager'): ('version/0.0.4', '@s6mobis')}
+2025-01-24 20:18:58,498 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info: {'@s6mobis': {('meta-ccos-avn', 'audiostreamingmanager'): ('version/0.0.4', '@s6mobis')}}
+2025-01-24 20:19:47,167 - widgets.auto_pr_tab - DEBUG - Moving to previous page from index 2
+2025-01-24 20:19:48,397 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-24 20:19:48,397 - widgets.auto_pr_pages.version_input_page - DEBUG - All recipes in branch @s6mobis validated successfully
+2025-01-24 20:19:48,397 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: True
+2025-01-24 20:19:48,397 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: True
+2025-01-24 20:19:48,397 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis version info: {('meta-ccos-avn', 'audiostreamingmanager'): ('version/0.0.4', '@s6mobis')}
+2025-01-24 20:19:48,397 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info: {'@s6mobis': {('meta-ccos-avn', 'audiostreamingmanager'): ('version/0.0.4', '@s6mobis')}}
+2025-01-24 20:19:53,776 - widgets.auto_pr_tab - ERROR - Failed to update repository audiostreamingmanager: Command '['git', 'pull']' returned non-zero exit status 128.
+2025-01-24 20:20:08,657 - widgets.auto_pr_tab - DEBUG - Moving to previous page from index 1
+2025-01-24 20:20:10,065 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:20:10,065 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:20:10,065 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:20:10,065 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 20:20:10,065 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:20:10,066 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:20:10,066 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:20:10,066 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 20:20:10,066 - widgets.auto_pr_pages.version_input_page - INFO - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 20:20:10,066 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: @s6mobis
+2025-01-24 20:20:10,066 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: @s6mobis with recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:20:11,584 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-24 20:20:11,584 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'audiostreamingmanager') in branch @s6mobis
+2025-01-24 20:20:11,584 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-24 20:20:11,585 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-24 20:21:10,961 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-24 20:21:10,961 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'audiostreamingmanager') in branch @s6mobis
+2025-01-24 20:21:10,961 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-24 20:21:10,961 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-24 20:21:11,989 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-24 20:21:11,989 - widgets.auto_pr_pages.version_input_page - WARNING - Missing version for recipe ('meta-ccos-avn', 'audiostreamingmanager') in branch @s6mobis
+2025-01-24 20:21:11,989 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: False
+2025-01-24 20:21:11,990 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: False
+2025-01-24 20:21:24,761 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-24 20:21:24,762 - widgets.auto_pr_pages.version_input_page - DEBUG - All recipes in branch @s6mobis validated successfully
+2025-01-24 20:21:24,762 - widgets.auto_pr_pages.version_input_page - INFO - Version input validation result: True
+2025-01-24 20:21:24,762 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: True
+2025-01-24 20:21:24,762 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis version info: {('meta-ccos-avn', 'audiostreamingmanager'): ('version/0.0.4', '@s6mobis')}
+2025-01-24 20:21:24,762 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info: {'@s6mobis': {('meta-ccos-avn', 'audiostreamingmanager'): ('version/0.0.4', '@s6mobis')}}
+2025-01-24 20:25:10,153 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 20:25:10,179 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:25:10,184 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 20:25:10,184 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 20:25:10,186 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 20:25:10,189 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 20:25:10,190 - widgets.auto_pr_pages.version_input_page - DEBUG - Initializing VersionInputPage
+2025-01-24 20:25:10,191 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 20:25:19,950 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:25:19,950 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:25:19,950 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:25:19,950 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 20:25:19,950 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:25:19,951 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:25:19,951 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:25:19,951 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 20:25:19,951 - widgets.auto_pr_pages.version_input_page - INFO - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 20:25:19,951 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: @s6mobis
+2025-01-24 20:25:19,952 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: @s6mobis with recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:25:25,309 - widgets.auto_pr_tab - DEBUG - Moving to previous page from index 1
+2025-01-24 20:25:30,510 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:25:30,510 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:25:30,510 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis', 's6mobis_test_1']
+2025-01-24 20:25:30,511 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 2, Valid: True
+2025-01-24 20:25:30,511 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:25:30,511 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:25:30,511 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis', 's6mobis_test_1']
+2025-01-24 20:25:30,511 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 2 branches
+2025-01-24 20:25:30,511 - widgets.auto_pr_pages.version_input_page - INFO - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis', 's6mobis_test_1']
+2025-01-24 20:25:30,512 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: @s6mobis
+2025-01-24 20:25:30,512 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: @s6mobis with recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:25:30,518 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: s6mobis_test_1
+2025-01-24 20:25:30,518 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: s6mobis_test_1 with recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:25:33,398 - widgets.auto_pr_tab - DEBUG - Moving to previous page from index 1
+2025-01-24 20:25:35,350 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:25:35,351 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-24 20:25:35,351 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis', 's6mobis_test_1']
+2025-01-24 20:25:35,351 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 2, Branches: 2, Valid: True
+2025-01-24 20:25:35,351 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:25:35,351 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-24 20:25:35,351 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis', 's6mobis_test_1']
+2025-01-24 20:25:35,351 - widgets.auto_pr_tab - INFO - Moving to version input with 2 recipes and 2 branches
+2025-01-24 20:25:35,352 - widgets.auto_pr_pages.version_input_page - INFO - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')] for branches: ['@s6mobis', 's6mobis_test_1']
+2025-01-24 20:25:35,352 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: @s6mobis
+2025-01-24 20:25:35,352 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: @s6mobis with recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-24 20:25:35,363 - widgets.auto_pr_pages.version_input_page - DEBUG - Adding version input group for branch: s6mobis_test_1
+2025-01-24 20:25:35,364 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating BranchVersionGroup for branch: s6mobis_test_1 with recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-24 20:26:01,090 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-24 20:27:30,170 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 20:27:30,191 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:27:30,201 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 20:27:30,201 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 20:27:30,203 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 20:27:30,207 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 20:28:30,368 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 20:28:30,386 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:28:30,391 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 20:28:30,391 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 20:28:30,393 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 20:28:30,395 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 20:28:30,397 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 20:28:40,006 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:28:40,006 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-24 20:28:40,006 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis', 's6mobis_test_1']
+2025-01-24 20:28:40,006 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 2, Branches: 2, Valid: True
+2025-01-24 20:28:40,006 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:28:40,006 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-24 20:28:40,006 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis', 's6mobis_test_1']
+2025-01-24 20:28:40,006 - widgets.auto_pr_tab - INFO - Moving to version input with 2 recipes and 2 branches
+2025-01-24 20:30:03,481 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:30:07,971 - widgets.recipe_versions_tab - INFO - Finished loading recipe versions
+2025-01-24 20:32:56,621 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 20:32:56,647 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:32:56,653 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 20:32:56,653 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 20:32:56,655 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 20:32:56,657 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 20:32:56,660 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 20:33:04,934 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:33:04,934 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-24 20:33:04,934 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis', 's6mobis_test_1']
+2025-01-24 20:33:04,934 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 2, Branches: 2, Valid: True
+2025-01-24 20:33:04,935 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:33:04,935 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-24 20:33:04,935 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis', 's6mobis_test_1']
+2025-01-24 20:33:04,935 - widgets.auto_pr_tab - INFO - Moving to version input with 2 recipes and 2 branches
+2025-01-24 20:36:19,273 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 20:36:19,295 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:36:19,299 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 20:36:19,300 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 20:36:19,301 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 20:36:19,303 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 20:36:19,305 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 20:36:27,310 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:36:27,311 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-24 20:36:27,311 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis', 's6mobis_test_1']
+2025-01-24 20:36:27,311 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 2, Branches: 2, Valid: True
+2025-01-24 20:36:27,311 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:36:27,311 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-24 20:36:27,311 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis', 's6mobis_test_1']
+2025-01-24 20:36:27,311 - widgets.auto_pr_tab - INFO - Moving to version input with 2 recipes and 2 branches
+2025-01-24 20:42:59,624 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 20:42:59,641 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:42:59,647 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 20:42:59,648 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 20:42:59,651 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 20:42:59,658 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 20:42:59,663 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 20:43:08,388 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:43:08,388 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-24 20:43:08,389 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis', 's6mobis_test_1']
+2025-01-24 20:43:08,389 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 2, Branches: 2, Valid: True
+2025-01-24 20:43:08,389 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:43:08,389 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-24 20:43:08,389 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis', 's6mobis_test_1']
+2025-01-24 20:43:08,389 - widgets.auto_pr_tab - INFO - Moving to version input with 2 recipes and 2 branches
+2025-01-24 20:44:46,742 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 20:44:46,770 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:44:46,774 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 20:44:46,775 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 20:44:46,777 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 20:44:46,779 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 20:44:46,783 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 20:44:55,121 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:44:55,122 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:44:55,124 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis', 's6mobis_test_1']
+2025-01-24 20:44:55,124 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 2, Branches: 2, Valid: True
+2025-01-24 20:44:55,124 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:44:55,124 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:44:55,124 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis', 's6mobis_test_1']
+2025-01-24 20:44:55,124 - widgets.auto_pr_tab - INFO - Moving to version input with 2 recipes and 2 branches
+2025-01-24 20:45:47,688 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 20:45:47,724 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:45:47,729 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 20:45:47,730 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 20:45:47,732 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 20:45:47,735 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 20:45:47,737 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 20:45:56,053 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:45:56,054 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-24 20:45:56,056 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['s6mobis_test_1', '@s6mobis']
+2025-01-24 20:45:56,056 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 2, Branches: 2, Valid: True
+2025-01-24 20:45:56,056 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:45:56,056 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager'), ('meta-ccos-avn', 'cinemocloudmanager')]
+2025-01-24 20:45:56,056 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['s6mobis_test_1', '@s6mobis']
+2025-01-24 20:45:56,056 - widgets.auto_pr_tab - INFO - Moving to version input with 2 recipes and 2 branches
+2025-01-24 20:46:02,334 - dialogs.pr_dialog - ERROR - Failed to generate PR message: 'WorkspaceManager' object has no attribute 'get_modified_repositories'
+2025-01-24 20:46:43,126 - widgets.auto_pr_tab - DEBUG - Moving to previous page from index 1
+2025-01-24 20:46:45,324 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:46:45,324 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:46:45,324 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['s6mobis_test_1', '@s6mobis']
+2025-01-24 20:46:45,324 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 2, Valid: True
+2025-01-24 20:46:45,324 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:46:45,324 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:46:45,324 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['s6mobis_test_1', '@s6mobis']
+2025-01-24 20:46:45,324 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 2 branches
+2025-01-24 20:46:46,443 - dialogs.pr_dialog - ERROR - Failed to generate PR message: 'WorkspaceManager' object has no attribute 'get_modified_repositories'
+2025-01-24 20:46:58,716 - dialogs.pr_dialog - ERROR - Failed to generate PR message: 'WorkspaceManager' object has no attribute 'get_modified_repositories'
+2025-01-24 20:48:11,514 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 20:48:11,531 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:48:11,535 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 20:48:11,535 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 20:48:11,537 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 20:48:11,539 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 20:48:11,541 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 20:48:19,842 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:48:19,842 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:48:19,843 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:48:19,843 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 20:48:19,843 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:48:19,843 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:48:19,843 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:48:19,843 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 20:48:37,234 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-24 20:49:40,167 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 20:49:40,185 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:49:40,190 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 20:49:40,190 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 20:49:40,192 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 20:49:40,194 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 20:49:40,195 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 20:49:47,941 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:49:47,941 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:49:47,941 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:49:47,942 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 20:49:47,942 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:49:47,942 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:49:47,942 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:49:47,942 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 20:50:03,983 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-24 20:50:15,448 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 20:50:15,464 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:50:15,469 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 20:50:15,469 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 20:50:15,471 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 20:50:15,473 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 20:50:15,475 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 20:50:24,351 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:50:24,351 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:50:24,351 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:50:24,351 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 20:50:24,351 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:50:24,351 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:50:24,351 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:50:24,351 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 20:52:41,034 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 20:52:41,054 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:52:41,062 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 20:52:41,063 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 20:52:41,067 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 20:52:41,077 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 20:52:41,081 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 20:52:49,346 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:52:49,346 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:52:49,348 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:52:49,348 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 20:52:49,349 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:52:49,349 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:52:49,349 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:52:49,349 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 20:55:30,576 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 20:55:30,593 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:55:30,597 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 20:55:30,597 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 20:55:30,599 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 20:55:30,601 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 20:55:30,603 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 20:55:53,569 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 20:55:53,585 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:55:53,589 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 20:55:53,589 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 20:55:53,591 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 20:55:53,592 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 20:55:53,594 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 20:56:03,476 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 20:56:06,651 - widgets.recipe_versions_tab - INFO - Finished loading recipe versions
+2025-01-24 20:56:29,656 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:56:29,656 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:56:29,657 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:56:29,657 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 20:56:29,657 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:56:29,657 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:56:29,657 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:56:29,657 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 20:57:11,796 - widgets.auto_pr_tab - DEBUG - Moving to previous page from index 1
+2025-01-24 20:57:13,055 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 20:57:13,056 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:57:13,056 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:57:13,056 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 20:57:13,056 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 20:57:13,056 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 20:57:13,057 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 20:57:13,057 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 21:01:56,308 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 21:01:56,325 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 21:01:56,329 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 21:01:56,329 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 21:01:56,331 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 21:01:56,368 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 21:01:56,373 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 21:02:11,117 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 21:02:11,118 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:02:11,118 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:02:11,118 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 21:02:11,118 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 21:02:11,119 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:02:11,119 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:02:11,119 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 21:04:51,279 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 21:04:51,299 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 21:04:51,304 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 21:04:51,304 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 21:04:51,306 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 21:04:51,309 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 21:04:51,311 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 21:04:58,269 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 21:04:58,270 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:04:58,270 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:04:58,270 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 21:04:58,270 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 21:04:58,270 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:04:58,270 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:04:58,270 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 21:05:11,848 - dialogs.pr_dialog - DEBUG - PRDialog initialized with branch: @s6mobis
+2025-01-24 21:05:47,498 - dialogs.pr_dialog - DEBUG - PRDialog initialized with branch: @s6mobis
+2025-01-24 21:08:27,906 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 21:08:27,922 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 21:08:27,926 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 21:08:27,927 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 21:08:27,929 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 21:08:27,932 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 21:08:27,934 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 21:18:36,176 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 21:18:36,177 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:18:36,177 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:18:36,177 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 21:18:36,178 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 21:18:36,178 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:18:36,178 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:18:36,178 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 21:18:55,166 - dialogs.pr_dialog - DEBUG - PRDialog initialized with branch: @s6mobis
+2025-01-24 21:43:07,642 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 21:43:07,662 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 21:43:07,668 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 21:43:07,668 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 21:43:07,670 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 21:43:07,671 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 21:43:07,673 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 21:43:24,711 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 21:43:24,711 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:43:24,711 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:43:24,711 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 21:43:24,711 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 21:43:24,712 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:43:24,712 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:43:24,712 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 21:43:24,712 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 21:43:24,712 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 21:43:24,712 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 21:43:24,712 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 21:43:24,715 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 21:43:24,715 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 21:43:24,731 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 21:43:24,732 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 21:43:24,732 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 21:43:24,732 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 21:43:24,732 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 21:43:27,110 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 21:43:29,520 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 21:43:31,822 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 21:43:31,822 - dialogs.pr_dialog - DEBUG - PRDialog initialized with branch: @s6mobis
+2025-01-24 21:43:36,610 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 21:43:36,610 - dialogs.pr_dialog - DEBUG - PRDialog initialized with branch: @s6mobis
+2025-01-24 21:43:39,051 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 21:43:39,051 - dialogs.pr_dialog - DEBUG - PRDialog initialized with branch: @s6mobis
+2025-01-24 21:46:10,601 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 21:46:10,624 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 21:46:10,629 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 21:46:10,630 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 21:46:10,633 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 21:46:10,635 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 21:46:10,638 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 21:46:17,770 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 21:46:17,771 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:46:17,771 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:46:17,771 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 21:46:17,771 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 21:46:17,771 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:46:17,771 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:46:17,771 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 21:46:17,771 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 21:46:17,771 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 21:46:17,771 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 21:46:17,772 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 21:46:17,773 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 21:46:17,774 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 21:46:17,795 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 21:46:17,796 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 21:46:17,796 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 21:46:17,796 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 21:46:17,796 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 21:46:27,914 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 21:46:28,653 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 21:46:28,653 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 21:47:43,866 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 21:47:43,894 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 21:47:43,899 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 21:47:43,900 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 21:47:43,902 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 21:47:43,904 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 21:47:43,907 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 21:47:54,345 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 21:47:54,345 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:47:54,346 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:47:54,346 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 21:47:54,346 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 21:47:54,346 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:47:54,346 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:47:54,346 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 21:47:54,347 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 21:47:54,347 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 21:47:54,347 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 21:47:54,347 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 21:47:54,350 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 21:47:54,351 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 21:47:54,375 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 21:47:54,376 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 21:47:54,376 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 21:47:54,376 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 21:47:54,377 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 21:47:56,935 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 21:47:56,935 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 21:48:31,968 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 21:48:31,987 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 21:48:31,992 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 21:48:31,992 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 21:48:31,994 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 21:48:31,996 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 21:48:31,999 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 21:48:38,436 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 21:48:38,436 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:48:38,436 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:48:38,436 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 21:48:38,437 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 21:48:38,437 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:48:38,437 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:48:38,437 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 21:48:38,437 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 21:48:38,437 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 21:48:38,437 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 21:48:38,438 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 21:48:38,441 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 21:48:38,441 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 21:48:38,465 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 21:48:38,466 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 21:48:38,466 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 21:48:38,466 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 21:48:38,466 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 21:48:39,912 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 21:48:39,913 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 21:51:16,296 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 21:51:16,321 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 21:51:16,327 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 21:51:16,327 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 21:51:16,329 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 21:51:16,331 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 21:51:16,333 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 21:51:24,214 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 21:51:24,214 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:51:24,214 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:51:24,214 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 21:51:24,214 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 21:51:24,215 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:51:24,215 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:51:24,215 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 21:51:24,215 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 21:51:24,215 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 21:51:24,215 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 21:51:24,216 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 21:51:24,218 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 21:51:24,219 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 21:51:24,240 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 21:51:24,241 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 21:51:24,241 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 21:51:24,241 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 21:51:24,241 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 21:51:26,603 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 21:52:58,016 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 21:52:58,041 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 21:52:58,046 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 21:52:58,047 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 21:52:58,049 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 21:52:58,051 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 21:52:58,053 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 21:53:04,734 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 21:53:04,734 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:53:04,734 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:53:04,734 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 21:53:04,734 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 21:53:04,735 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:53:04,735 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:53:04,735 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 21:53:04,735 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 21:53:04,735 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 21:53:04,735 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 21:53:04,735 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 21:53:04,737 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 21:53:04,737 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 21:53:04,759 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 21:53:04,760 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 21:53:04,761 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 21:53:04,761 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 21:53:04,761 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 21:53:05,676 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 21:53:13,796 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 21:53:15,644 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 21:54:54,147 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 21:54:54,166 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 21:54:54,171 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 21:54:54,172 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 21:54:54,173 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 21:54:54,176 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 21:54:54,178 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 21:55:01,983 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 21:55:01,984 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:55:01,984 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:55:01,984 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 21:55:01,984 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 21:55:01,984 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 21:55:01,984 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 21:55:01,984 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 21:55:01,984 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 21:55:01,984 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 21:55:01,984 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 21:55:01,985 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 21:55:01,987 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 21:55:01,987 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 21:55:02,009 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 21:55:02,011 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 21:55:02,011 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 21:55:02,011 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 21:55:02,011 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 21:55:03,475 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 21:55:03,476 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 21:55:03,476 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 21:55:03,477 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 21:55:07,428 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", "Description:\nUpdate test string in test.cpp from 'test2' to 'test2aeee'", 'Dependency:\nN/A', 'Jira:\nAVNG6YOC-12345', 'Merged in test (pull request #2)', 'ENH: add test', 'ENH: add test', 'Description:\nadd test code', 'Dependency:\nN/A', 'Jira:\nCCNCMREL-12345', 'Merged in test (pull request #1)', 'test', 'test2', 'test']
+2025-01-24 21:59:59,387 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 21:59:59,405 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 21:59:59,409 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 21:59:59,409 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 21:59:59,411 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 21:59:59,413 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 21:59:59,415 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 22:00:16,616 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 22:00:16,616 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:00:16,617 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:00:16,617 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 22:00:16,617 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 22:00:16,617 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:00:16,617 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:00:16,617 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 22:00:16,617 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 22:00:16,617 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 22:00:16,617 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 22:00:16,617 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 22:00:16,619 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:00:16,619 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 22:00:16,634 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 22:00:16,634 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 22:00:16,634 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:00:16,635 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 22:00:16,635 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 22:00:17,813 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:00:17,814 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 22:00:17,814 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:00:17,814 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:00:20,671 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", "Description:\nUpdate test string in test.cpp from 'test2' to 'test2aeee'", 'Dependency:\nN/A', 'Jira:\nAVNG6YOC-12345', 'Merged in test (pull request #2)', 'ENH: add test', 'ENH: add test', 'Description:\nadd test code', 'Dependency:\nN/A', 'Jira:\nCCNCMREL-12345', 'Merged in test (pull request #1)', 'test', 'test2', 'test']
+2025-01-24 22:06:32,281 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 22:06:32,302 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 22:06:32,307 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 22:06:32,307 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 22:06:32,310 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 22:06:32,313 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 22:06:32,315 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 22:06:40,659 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 22:06:40,659 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:06:40,659 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:06:40,659 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 22:06:40,659 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 22:06:40,659 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:06:40,659 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:06:40,659 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 22:06:40,659 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 22:06:40,660 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 22:06:40,660 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 22:06:40,660 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 22:06:40,662 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:06:40,662 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 22:06:40,679 - widgets.recipe_version_input - INFO - Generated next version for audiostreamingmanager: version/0.0.2
+2025-01-24 22:06:40,685 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 22:06:40,686 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 22:06:40,687 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:06:40,687 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 22:06:40,687 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 22:06:41,949 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:06:41,950 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('version/0.0.2', '@s6mobis')}
+2025-01-24 22:06:41,950 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:06:41,950 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:06:44,691 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager: ['test']
+2025-01-24 22:07:00,300 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:07:01,002 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:07:12,600 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:07:12,600 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 22:07:12,600 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:07:12,600 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:07:15,308 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", "Description:\nUpdate test string in test.cpp from 'test2' to 'test2aeee'", 'Dependency:\nN/A', 'Jira:\nAVNG6YOC-12345', 'Merged in test (pull request #2)', 'ENH: add test', 'ENH: add test', 'Description:\nadd test code', 'Dependency:\nN/A', 'Jira:\nCCNCMREL-12345', 'Merged in test (pull request #1)', 'test', 'test2', 'test']
+2025-01-24 22:07:40,629 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:07:40,630 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 22:07:40,630 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:07:40,630 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:07:43,562 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", "Description:\nUpdate test string in test.cpp from 'test2' to 'test2aeee'", 'Dependency:\nN/A', 'Jira:\nAVNG6YOC-12345', 'Merged in test (pull request #2)', 'ENH: add test', 'ENH: add test', 'Description:\nadd test code', 'Dependency:\nN/A', 'Jira:\nCCNCMREL-12345', 'Merged in test (pull request #1)', 'test', 'test2', 'test']
+2025-01-24 22:15:04,701 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 22:15:04,718 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 22:15:04,723 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 22:15:04,723 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 22:15:04,725 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 22:15:04,727 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 22:15:04,729 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 22:15:17,654 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 22:15:17,655 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:15:17,655 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:15:17,655 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 22:15:17,655 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 22:15:17,655 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:15:17,655 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:15:17,655 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 22:15:17,655 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 22:15:17,655 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 22:15:17,655 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 22:15:17,655 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 22:15:17,658 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:15:17,658 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 22:15:17,671 - widgets.recipe_version_input - INFO - Generated next version for audiostreamingmanager: version/0.0.2
+2025-01-24 22:15:17,675 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 22:15:17,676 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 22:15:17,677 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:15:17,677 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 22:15:17,677 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 22:15:18,964 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:15:18,964 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('version/0.0.2', '@s6mobis')}
+2025-01-24 22:15:18,965 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:15:18,965 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:15:21,648 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.4 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", "Description:\nUpdate test string in test.cpp from 'test2' to 'test2aeee'", 'Dependency:\nN/A', 'Jira:\nAVNG6YOC-12345', 'Merged in test (pull request #2)', 'ENH: add test', 'Merged in test (pull request #1)', 'test']
+2025-01-24 22:15:26,367 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:15:27,567 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:15:32,064 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:15:32,064 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 22:15:32,065 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:15:32,065 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:15:32,067 - dialogs.pr_dialog - WARNING - Failed to process audiostreamingmanager: name 'generate_next_version' is not defined
+2025-01-24 22:15:43,957 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:15:43,957 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 22:15:43,957 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:15:43,958 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:15:43,962 - dialogs.pr_dialog - WARNING - Failed to process audiostreamingmanager: name 'generate_next_version' is not defined
+2025-01-24 22:15:55,047 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:15:55,048 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('version/0.0.4', '@s6mobis')}
+2025-01-24 22:15:55,048 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:15:55,048 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:15:57,911 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.4 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", "Description:\nUpdate test string in test.cpp from 'test2' to 'test2aeee'", 'Dependency:\nN/A', 'Jira:\nAVNG6YOC-12345', 'Merged in test (pull request #2)', 'ENH: add test', 'Merged in test (pull request #1)', 'test']
+2025-01-24 22:17:16,869 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 22:17:16,889 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 22:17:16,894 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 22:17:16,894 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 22:17:16,896 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 22:17:16,899 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 22:17:16,901 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 22:17:24,659 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 22:17:24,660 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:17:24,660 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:17:24,660 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 22:17:24,660 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 22:17:24,660 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:17:24,660 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:17:24,660 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 22:17:24,661 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 22:17:24,661 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 22:17:24,661 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 22:17:24,661 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 22:17:24,664 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:17:24,665 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 22:17:24,685 - widgets.recipe_version_input - INFO - Generated next version for audiostreamingmanager: version/0.0.2
+2025-01-24 22:17:24,691 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 22:17:24,692 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 22:17:24,692 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:17:24,692 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 22:17:24,692 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 22:17:27,428 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:17:27,428 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('version/0.0.2', '@s6mobis')}
+2025-01-24 22:17:27,429 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:17:27,429 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:17:30,119 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.4 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", "Description:\nUpdate test string in test.cpp from 'test2' to 'test2aeee'", 'Dependency:\nN/A', 'Jira:\nAVNG6YOC-12345', 'Merged in test (pull request #2)', 'ENH: add test', 'Merged in test (pull request #1)', 'test']
+2025-01-24 22:17:32,540 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:17:33,579 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:17:40,220 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:17:40,220 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 22:17:40,222 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:17:40,223 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:17:42,927 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.4 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", "Description:\nUpdate test string in test.cpp from 'test2' to 'test2aeee'", 'Dependency:\nN/A', 'Jira:\nAVNG6YOC-12345', 'Merged in test (pull request #2)', 'ENH: add test', 'Merged in test (pull request #1)', 'test']
+2025-01-24 22:20:57,144 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 22:20:57,165 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 22:20:57,170 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 22:20:57,170 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 22:20:57,172 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 22:20:57,174 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 22:20:57,178 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 22:21:03,736 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 22:21:03,736 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:21:03,736 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:21:03,736 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 22:21:03,736 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 22:21:03,736 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:21:03,737 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:21:03,737 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 22:21:03,737 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 22:21:03,737 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 22:21:03,737 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 22:21:03,737 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 22:21:03,740 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:21:03,740 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 22:21:03,755 - widgets.recipe_version_input - INFO - Generated next version for audiostreamingmanager: version/0.0.2
+2025-01-24 22:21:03,760 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 22:21:03,760 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 22:21:03,761 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:21:03,761 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 22:21:03,761 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 22:21:05,097 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:21:06,077 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:21:10,815 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:21:10,815 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 22:21:10,815 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:21:10,816 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:21:13,708 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.4 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", "Description:\nUpdate test string in test.cpp from 'test2' to 'test2aeee'", 'Dependency:\nN/A', 'Jira:\nAVNG6YOC-12345', 'Merged in test (pull request #2)', 'ENH: add test', 'ENH: add test', 'Description:\nadd test code', 'Dependency:\nN/A', 'Jira:\nCCNCMREL-12345', 'Merged in test (pull request #1)', 'test', 'test2', 'test']
+2025-01-24 22:31:46,652 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 22:31:46,670 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 22:31:46,674 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 22:31:46,674 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 22:31:46,677 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 22:31:46,679 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 22:31:46,681 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 22:31:55,130 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 22:31:55,130 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:31:55,131 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:31:55,131 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 22:31:55,131 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 22:31:55,131 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:31:55,131 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:31:55,131 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 22:31:55,131 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 22:31:55,132 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 22:31:55,132 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 22:31:55,132 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 22:31:55,136 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:31:55,136 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 22:31:55,155 - widgets.recipe_version_input - INFO - Generated next version for audiostreamingmanager: version/0.0.2
+2025-01-24 22:31:55,161 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 22:31:55,162 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 22:31:55,163 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:31:55,163 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 22:31:55,163 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 22:31:58,241 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:32:00,189 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:32:04,708 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:32:04,708 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 22:32:04,708 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:32:04,708 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:32:07,821 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.4 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", "Description:\nUpdate test string in test.cpp from 'test2' to 'test2aeee'", 'Dependency:\nN/A', 'Jira:\nAVNG6YOC-12345', 'Merged in test (pull request #2)', 'ENH: add test', 'ENH: add test', 'Description:\nadd test code', 'Dependency:\nN/A', 'Jira:\nCCNCMREL-12345', 'Merged in test (pull request #1)', 'test', 'test2', 'test']
+2025-01-24 22:32:07,823 - dialogs.pr_dialog - WARNING - Failed to process audiostreamingmanager: no such group
+2025-01-24 22:32:32,281 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 22:32:32,299 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 22:32:32,304 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 22:32:32,304 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 22:32:32,305 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 22:32:32,308 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 22:32:32,310 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 22:32:49,579 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 22:32:49,579 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:32:49,579 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:32:49,580 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 22:32:49,580 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 22:32:49,580 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:32:49,580 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:32:49,580 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 22:32:49,580 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 22:32:49,580 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 22:32:49,580 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 22:32:49,581 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 22:32:49,583 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:32:49,583 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 22:32:49,596 - widgets.recipe_version_input - INFO - Generated next version for audiostreamingmanager: version/0.0.2
+2025-01-24 22:32:49,602 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 22:32:49,603 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 22:32:49,603 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:32:49,603 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 22:32:49,603 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 22:32:51,889 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:32:53,411 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:32:54,322 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:32:54,322 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('version/0.0.2', '@s6mobis')}
+2025-01-24 22:32:54,323 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:32:54,323 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:32:57,337 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.4 to HEAD: ['test']
+2025-01-24 22:33:03,732 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:33:03,732 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 22:33:03,732 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:33:03,732 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:33:07,324 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.4 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", "Description:\nUpdate test string in test.cpp from 'test2' to 'test2aeee'", 'Dependency:\nN/A', 'Jira:\nAVNG6YOC-12345', 'Merged in test (pull request #2)', 'ENH: add test', 'ENH: add test', 'Description:\nadd test code', 'Dependency:\nN/A', 'Jira:\nCCNCMREL-12345', 'Merged in test (pull request #1)', 'test', 'test2', 'test']
+2025-01-24 22:33:07,325 - dialogs.pr_dialog - WARNING - Failed to process audiostreamingmanager: no such group
+2025-01-24 22:37:45,961 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 22:37:45,979 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 22:37:45,985 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 22:37:45,985 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 22:37:45,987 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 22:37:45,989 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 22:37:45,991 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 22:38:01,907 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 22:38:01,907 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:38:01,907 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:38:01,907 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 22:38:01,908 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 22:38:01,908 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:38:01,908 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:38:01,908 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 22:38:01,908 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 22:38:01,908 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 22:38:01,908 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 22:38:01,908 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 22:38:01,910 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:38:01,911 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 22:38:01,923 - widgets.recipe_version_input - INFO - Generated next version for audiostreamingmanager: version/0.0.2
+2025-01-24 22:38:01,929 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 22:38:01,929 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 22:38:01,930 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:38:01,930 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 22:38:01,930 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 22:38:03,378 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:38:06,447 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:38:10,789 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:38:10,789 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 22:38:10,789 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:38:10,790 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:38:13,559 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.4 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", "Description:\nUpdate test string in test.cpp from 'test2' to 'test2aeee'", 'Dependency:\nN/A', 'Jira:\nAVNG6YOC-12345', 'Merged in test (pull request #2)', 'ENH: add test', 'ENH: add test', 'Description:\nadd test code', 'Dependency:\nN/A', 'Jira:\nCCNCMREL-12345', 'Merged in test (pull request #1)', 'test', 'test2', 'test']
+2025-01-24 22:38:13,560 - dialogs.pr_dialog - WARNING - Failed to process audiostreamingmanager: no such group
+2025-01-24 22:39:52,460 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 22:39:52,478 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 22:39:52,484 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 22:39:52,484 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 22:39:52,487 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 22:39:52,489 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 22:39:52,491 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 22:40:03,470 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 22:40:03,470 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:40:03,470 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:40:03,471 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 22:40:03,471 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 22:40:03,471 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:40:03,471 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:40:03,471 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 22:40:03,471 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 22:40:03,471 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 22:40:03,471 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 22:40:03,471 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 22:40:03,473 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:40:03,473 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 22:40:03,484 - widgets.recipe_version_input - INFO - Generated next version for audiostreamingmanager: version/0.0.2
+2025-01-24 22:40:03,489 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 22:40:03,490 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 22:40:03,490 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:40:03,490 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 22:40:03,490 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 22:40:05,890 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:40:07,312 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:40:09,372 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling all branches: collapse
+2025-01-24 22:40:09,372 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:40:09,921 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling all branches: expand
+2025-01-24 22:40:09,921 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:40:11,011 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling all branches: collapse
+2025-01-24 22:40:11,011 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:40:17,282 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-24 22:40:17,282 - widgets.auto_pr_pages.version_input_page - DEBUG - Version input validation result: True
+2025-01-24 22:40:17,282 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: True
+2025-01-24 22:40:17,282 - widgets.auto_pr_pages.version_input_page - DEBUG - Version info for meta-ccos-avn/audiostreamingmanager in @s6mobis: ('HEAD', '@s6mobis')
+2025-01-24 22:40:33,130 - widgets.auto_pr_tab - DEBUG - Moving to previous page from index 2
+2025-01-24 22:40:34,531 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:40:34,531 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 22:40:34,532 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:40:34,532 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:40:37,211 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.4 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", "Description:\nUpdate test string in test.cpp from 'test2' to 'test2aeee'", 'Dependency:\nN/A', 'Jira:\nAVNG6YOC-12345', 'Merged in test (pull request #2)', 'ENH: add test', 'ENH: add test', 'Description:\nadd test code', 'Dependency:\nN/A', 'Jira:\nCCNCMREL-12345', 'Merged in test (pull request #1)', 'test', 'test2', 'test']
+2025-01-24 22:42:59,013 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 22:42:59,030 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 22:42:59,034 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 22:42:59,035 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 22:42:59,037 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 22:42:59,040 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 22:42:59,043 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 22:43:06,423 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 22:43:06,423 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:43:06,424 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:43:06,424 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 22:43:06,424 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 22:43:06,424 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:43:06,425 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:43:06,425 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 22:43:06,425 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 22:43:06,425 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 22:43:06,425 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 22:43:06,426 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 22:43:06,429 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:43:06,430 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 22:43:06,446 - widgets.recipe_version_input - INFO - Generated next version for audiostreamingmanager: version/0.0.2
+2025-01-24 22:43:06,451 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 22:43:06,452 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 22:43:06,452 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:43:06,452 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 22:43:06,452 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 22:43:08,414 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:43:09,823 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:43:13,833 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:43:13,833 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 22:43:13,833 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:43:13,833 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:43:16,547 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.4 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", "Description:\nUpdate test string in test.cpp from 'test2' to 'test2aeee'", 'Dependency:\nN/A', 'Jira:\nAVNG6YOC-12345', 'Merged in test (pull request #2)', 'ENH: add test', 'ENH: add test', 'Description:\nadd test code', 'Dependency:\nN/A', 'Jira:\nCCNCMREL-12345', 'Merged in test (pull request #1)', 'test', 'test2', 'test']
+2025-01-24 22:48:15,578 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 22:48:15,604 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 22:48:15,609 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 22:48:15,609 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 22:48:15,611 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 22:48:15,613 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 22:48:15,617 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 22:48:22,568 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 22:48:22,569 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:48:22,569 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:48:22,569 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 22:48:22,569 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 22:48:22,569 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:48:22,569 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:48:22,570 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 22:48:22,570 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 22:48:22,570 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 22:48:22,570 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 22:48:22,570 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 22:48:22,573 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:48:22,573 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 22:48:22,589 - widgets.recipe_version_input - INFO - Generated next version for audiostreamingmanager: version/0.0.2
+2025-01-24 22:48:22,595 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 22:48:22,597 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 22:48:22,597 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:48:22,597 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 22:48:22,597 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 22:48:24,489 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:48:26,039 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:48:32,727 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:48:32,727 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 22:48:32,728 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:48:32,728 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:48:35,464 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.4 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", 'Description:', 'Dependency:', 'Jira:', 'Merged in test (pull request #2)', 'ENH: add test', 'ENH: add test', 'Description:', 'Dependency:', 'Jira:', 'Merged in test (pull request #1)', 'test', 'test2', 'test']
+2025-01-24 22:52:57,781 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 22:52:57,800 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 22:52:57,806 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 22:52:57,806 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 22:52:57,808 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 22:52:57,809 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 22:52:57,811 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 22:53:04,884 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 22:53:04,884 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:53:04,884 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:53:04,884 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 22:53:04,884 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 22:53:04,885 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:53:04,885 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:53:04,885 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 22:53:04,885 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 22:53:04,885 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 22:53:04,885 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 22:53:04,885 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 22:53:04,887 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:53:04,887 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 22:53:04,899 - widgets.recipe_version_input - INFO - Generated next version for audiostreamingmanager: version/0.0.2
+2025-01-24 22:53:04,903 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 22:53:04,904 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 22:53:04,905 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:53:04,905 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 22:53:04,905 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 22:53:06,554 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:53:07,735 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:53:12,886 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:53:12,887 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 22:53:12,887 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:53:12,887 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:53:15,606 - dialogs.pr_dialog - WARNING - Failed to process audiostreamingmanager: name 'commits' is not defined
+2025-01-24 22:54:35,172 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 22:54:35,189 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 22:54:35,194 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 22:54:35,194 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 22:54:35,196 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 22:54:35,198 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 22:54:35,200 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 22:55:22,344 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 22:55:22,364 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 22:55:22,368 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 22:55:22,369 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 22:55:22,370 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 22:55:22,372 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 22:55:22,375 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 22:55:22,435 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-24 22:55:22,440 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-24 22:55:22,443 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-24 22:55:22,445 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-24 22:55:41,018 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 22:55:41,018 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:55:41,018 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:55:41,019 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 22:55:41,019 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 22:55:41,019 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:55:41,019 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:55:41,019 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 22:55:41,019 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 22:55:41,019 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 22:55:41,019 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 22:55:41,020 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 22:55:41,020 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-24 22:55:41,024 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:55:41,025 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 22:55:41,032 - git.git - INFO - Running command: git pull
+2025-01-24 22:55:41,035 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-24 22:55:41,038 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-24 22:55:41,041 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-24 22:55:41,044 - widgets.recipe_version_input - INFO - Generated next version for audiostreamingmanager: version/0.0.2
+2025-01-24 22:55:41,044 - git.git - INFO - Running command: git tag --list version/*
+2025-01-24 22:55:41,047 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-24 22:55:41,049 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 22:55:41,050 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 22:55:41,050 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:55:41,050 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 22:55:41,050 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 22:55:42,596 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:55:43,796 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:55:48,008 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:55:48,008 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 22:55:48,009 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:55:48,009 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:55:48,011 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-24 22:55:48,015 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-24 22:55:50,720 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-24 22:55:50,723 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-24 22:55:50,724 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-24 22:55:50,728 - dialogs.pr_dialog - WARNING - Failed to process audiostreamingmanager: name 'commits' is not defined
+2025-01-24 22:55:50,730 - git.git - INFO - Running command: git status
+2025-01-24 22:55:50,734 - git.git - INFO - Running command: git status
+2025-01-24 22:55:50,741 - git.git - INFO - Running command: git status
+2025-01-24 22:55:50,744 - git.git - INFO - Running command: git status
+2025-01-24 22:55:59,518 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-24 22:55:59,520 - git.git - INFO - Running command: git tag -a version/0.0.5 -m Update audiostreamingmanager from version/0.0.4 to version/0.0.5
+2025-01-24 22:55:59,527 - git.git - INFO - Running command: git push origin version/0.0.5
+2025-01-24 22:56:04,779 - dialogs.pr_dialog - ERROR - Failed to process audiostreamingmanager: name 'logger' is not defined
+2025-01-24 22:58:08,409 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 22:58:08,438 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 22:58:08,444 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 22:58:08,445 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 22:58:08,448 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 22:58:08,450 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 22:58:08,454 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 22:58:08,540 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-24 22:58:08,545 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-24 22:58:08,547 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-24 22:58:08,550 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-24 22:58:15,498 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 22:58:15,498 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:58:15,499 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:58:15,499 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 22:58:15,499 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 22:58:15,499 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 22:58:15,499 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 22:58:15,499 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 22:58:15,499 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 22:58:15,499 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 22:58:15,499 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 22:58:15,500 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 22:58:15,500 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-24 22:58:15,502 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:58:15,502 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 22:58:15,506 - git.git - INFO - Running command: git pull
+2025-01-24 22:58:15,508 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-24 22:58:15,511 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-24 22:58:15,514 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-24 22:58:15,517 - git.git - INFO - Running command: git tag --list version/*
+2025-01-24 22:58:15,520 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-24 22:58:15,523 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 22:58:15,524 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 22:58:15,524 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:58:15,524 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 22:58:15,524 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 22:58:17,680 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 22:58:20,447 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 22:58:26,390 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 22:58:26,390 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 22:58:26,391 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 22:58:26,391 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 22:58:26,392 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-24 22:58:26,396 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-24 22:58:29,044 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-24 22:58:29,046 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-24 22:58:29,046 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-24 22:58:29,049 - dialogs.pr_dialog - WARNING - Failed to process audiostreamingmanager: name 'commits' is not defined
+2025-01-24 22:58:29,050 - git.git - INFO - Running command: git status
+2025-01-24 22:58:29,053 - git.git - INFO - Running command: git status
+2025-01-24 22:58:29,057 - git.git - INFO - Running command: git status
+2025-01-24 22:58:29,061 - git.git - INFO - Running command: git status
+2025-01-24 23:46:29,124 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 23:46:29,127 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 23:46:29,128 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 23:46:29,128 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 23:46:29,144 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-24 23:46:29,169 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-24 23:46:32,045 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-24 23:46:32,055 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-24 23:46:32,056 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-24 23:46:32,064 - dialogs.pr_dialog - WARNING - Failed to process audiostreamingmanager: name 'commits' is not defined
+2025-01-24 23:46:32,072 - git.git - INFO - Running command: git status
+2025-01-24 23:46:32,081 - git.git - INFO - Running command: git status
+2025-01-24 23:46:32,104 - git.git - INFO - Running command: git status
+2025-01-24 23:46:32,114 - git.git - INFO - Running command: git status
+2025-01-24 23:46:34,313 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-24 23:46:34,318 - git.git - INFO - Running command: git tag -a version/0.0.6 -m Update audiostreamingmanager from version/0.0.5 to version/0.0.6
+2025-01-24 23:46:34,329 - git.git - INFO - Running command: git push origin version/0.0.6
+2025-01-24 23:46:38,828 - dialogs.pr_dialog - ERROR - Failed to process audiostreamingmanager: name 'logger' is not defined
+2025-01-24 23:50:27,522 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 23:50:27,549 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 23:50:27,555 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 23:50:27,555 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 23:50:27,557 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 23:50:27,559 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 23:50:27,561 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 23:50:27,608 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-24 23:50:27,608 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-24 23:50:27,609 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-24 23:50:27,619 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-24 23:50:51,835 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 23:50:51,835 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 23:50:51,836 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 23:50:51,836 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 23:50:51,836 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 23:50:51,836 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 23:50:51,836 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 23:50:51,836 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 23:50:51,836 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 23:50:51,837 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 23:50:51,837 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 23:50:51,837 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 23:50:51,837 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-24 23:50:51,840 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 23:50:51,840 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 23:50:51,843 - git.git - INFO - Running command: git pull
+2025-01-24 23:50:51,846 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-24 23:50:51,850 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-24 23:50:51,853 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-24 23:50:51,857 - git.git - INFO - Running command: git tag --list version/*
+2025-01-24 23:50:51,859 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-24 23:50:51,862 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 23:50:51,863 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 23:50:51,863 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 23:50:51,863 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 23:50:51,864 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 23:50:54,355 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 23:51:27,256 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 23:51:50,787 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 23:51:50,788 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 23:51:50,788 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 23:51:50,788 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 23:51:50,790 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-24 23:51:50,794 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-24 23:51:50,798 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-24 23:51:53,804 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-24 23:51:53,806 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-24 23:51:53,806 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-24 23:51:53,808 - dialogs.pr_dialog - WARNING - Failed to process audiostreamingmanager: name 'commits' is not defined
+2025-01-24 23:51:53,809 - git.git - INFO - Running command: git status
+2025-01-24 23:51:53,812 - git.git - INFO - Running command: git status
+2025-01-24 23:51:53,815 - git.git - INFO - Running command: git status
+2025-01-24 23:51:53,820 - git.git - INFO - Running command: git status
+2025-01-24 23:57:48,479 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-24 23:57:48,496 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-24 23:57:48,500 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-24 23:57:48,500 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-24 23:57:48,502 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-24 23:57:48,504 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-24 23:57:48,506 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-24 23:57:48,564 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-24 23:57:48,569 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-24 23:57:48,571 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-24 23:57:48,572 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-24 23:58:30,798 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-24 23:58:30,799 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 23:58:30,799 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 23:58:30,799 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-24 23:58:30,799 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-24 23:58:30,799 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-24 23:58:30,800 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-24 23:58:30,800 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-24 23:58:30,800 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-24 23:58:30,800 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-24 23:58:30,800 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-24 23:58:30,800 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-24 23:58:30,800 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-24 23:58:30,803 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 23:58:30,804 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-24 23:58:30,804 - git.git - INFO - Running command: git pull
+2025-01-24 23:58:30,809 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-24 23:58:30,813 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-24 23:58:30,815 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-24 23:58:30,818 - git.git - INFO - Running command: git tag --list version/*
+2025-01-24 23:58:30,820 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-24 23:58:30,822 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-24 23:58:30,823 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-24 23:58:30,823 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 23:58:30,823 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-24 23:58:30,823 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-24 23:58:32,499 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-24 23:58:37,016 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-24 23:58:38,970 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-24 23:58:38,970 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-24 23:58:38,970 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-24 23:58:38,971 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-24 23:58:38,972 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-24 23:58:38,976 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-24 23:58:46,799 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-24 23:58:49,519 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-24 23:58:49,522 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-24 23:58:49,522 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-24 23:58:49,524 - dialogs.pr_dialog - WARNING - Failed to process audiostreamingmanager: name 'commits' is not defined
+2025-01-24 23:58:49,525 - git.git - INFO - Running command: git status
+2025-01-24 23:58:49,528 - git.git - INFO - Running command: git status
+2025-01-24 23:58:49,531 - git.git - INFO - Running command: git status
+2025-01-24 23:58:49,534 - git.git - INFO - Running command: git status
