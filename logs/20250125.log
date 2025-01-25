@@ -1,0 +1,1272 @@
+2025-01-25 00:03:43,447 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-25 00:03:43,470 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:03:43,475 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-25 00:03:43,475 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-25 00:03:43,477 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-25 00:03:43,479 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-25 00:03:43,481 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-25 00:03:43,543 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-25 00:03:43,571 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-25 00:03:43,572 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-25 00:03:43,585 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-25 00:03:52,566 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-25 00:03:52,566 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:03:52,570 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:03:52,570 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-25 00:03:52,571 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-25 00:03:52,571 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:03:52,571 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:03:52,571 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-25 00:03:52,571 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-25 00:03:52,571 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-25 00:03:52,571 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-25 00:03:52,572 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-25 00:03:52,572 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:03:52,573 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 00:03:52,574 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-25 00:03:52,577 - git.git - INFO - Running command: git pull
+2025-01-25 00:03:52,579 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:03:52,582 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:03:52,585 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:03:52,589 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 00:03:52,592 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:03:52,596 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-25 00:03:52,597 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-25 00:03:52,597 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 00:03:52,598 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-25 00:03:52,598 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-25 00:03:53,636 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-25 00:03:53,636 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-25 00:03:53,637 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-25 00:03:53,637 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-25 00:03:53,638 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:03:53,641 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:03:57,357 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 00:04:00,270 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-25 00:04:00,276 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-25 00:04:00,276 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-25 00:04:00,281 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.6 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", 'Merged in test (pull request #2)', 'ENH: add test', 'Merged in test (pull request #1)', 'test2', 'test']
+2025-01-25 00:04:00,282 - git.git - INFO - Running command: git status
+2025-01-25 00:04:00,287 - git.git - INFO - Running command: git status
+2025-01-25 00:04:00,291 - git.git - INFO - Running command: git status
+2025-01-25 00:04:00,294 - git.git - INFO - Running command: git status
+2025-01-25 00:04:04,247 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-25 00:04:04,247 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-25 00:04:04,247 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-25 00:04:04,248 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-25 00:04:04,249 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:04:04,253 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:04:06,035 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 00:04:08,811 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-25 00:04:08,814 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-25 00:04:08,815 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-25 00:04:08,818 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.6 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", 'Merged in test (pull request #2)', 'ENH: add test', 'Merged in test (pull request #1)', 'test2', 'test']
+2025-01-25 00:04:08,820 - git.git - INFO - Running command: git status
+2025-01-25 00:04:08,825 - git.git - INFO - Running command: git status
+2025-01-25 00:04:08,829 - git.git - INFO - Running command: git status
+2025-01-25 00:04:08,833 - git.git - INFO - Running command: git status
+2025-01-25 00:06:51,513 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-25 00:06:51,532 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:06:51,536 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-25 00:06:51,536 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-25 00:06:51,539 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-25 00:06:51,541 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-25 00:06:51,543 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-25 00:06:51,613 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-25 00:06:51,618 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-25 00:06:51,619 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-25 00:06:51,623 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-25 00:06:59,401 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-25 00:06:59,402 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:06:59,402 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:06:59,402 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-25 00:06:59,402 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-25 00:06:59,402 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:06:59,402 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:06:59,403 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-25 00:06:59,403 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-25 00:06:59,403 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-25 00:06:59,403 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-25 00:06:59,403 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-25 00:06:59,403 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:06:59,407 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 00:06:59,407 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-25 00:06:59,415 - git.git - INFO - Running command: git pull
+2025-01-25 00:06:59,419 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:06:59,423 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:06:59,427 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:06:59,431 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 00:06:59,434 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:06:59,437 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-25 00:06:59,438 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-25 00:06:59,438 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 00:06:59,438 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-25 00:06:59,438 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-25 00:07:00,451 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-25 00:07:00,451 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-25 00:07:00,452 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-25 00:07:00,452 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-25 00:07:00,453 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:07:00,457 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:07:01,661 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 00:07:05,504 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-25 00:07:05,511 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-25 00:07:05,512 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-25 00:07:05,518 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.6 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", 'Merged in test (pull request #2)', 'ENH: add test', 'Merged in test (pull request #1)', 'test2', 'test']
+2025-01-25 00:07:05,520 - git.git - INFO - Running command: git status
+2025-01-25 00:07:05,525 - git.git - INFO - Running command: git status
+2025-01-25 00:07:05,529 - git.git - INFO - Running command: git status
+2025-01-25 00:07:05,533 - git.git - INFO - Running command: git status
+2025-01-25 00:07:20,170 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 00:07:21,011 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 00:07:31,911 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-25 00:07:31,911 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('version/0.0.5', '@s6mobis')}
+2025-01-25 00:07:31,911 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-25 00:07:31,911 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-25 00:07:31,912 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:07:31,915 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 00:07:34,579 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..version/0.0.5
+2025-01-25 00:07:34,581 - git.git - INFO - Commit messages between version/0.0.1 and version/0.0.5: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-25 00:07:34,581 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..version/0.0.5
+2025-01-25 00:07:34,583 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.6 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", 'Merged in test (pull request #2)', 'ENH: add test', 'Merged in test (pull request #1)', 'test2', 'test']
+2025-01-25 00:07:34,584 - git.git - INFO - Running command: git status
+2025-01-25 00:07:34,587 - git.git - INFO - Running command: git status
+2025-01-25 00:07:34,589 - git.git - INFO - Running command: git status
+2025-01-25 00:07:34,592 - git.git - INFO - Running command: git status
+2025-01-25 00:12:04,982 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-25 00:12:05,008 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:12:05,016 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-25 00:12:05,016 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-25 00:12:05,019 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-25 00:12:05,023 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-25 00:12:05,027 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-25 00:12:05,098 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-25 00:12:05,103 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-25 00:12:05,106 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-25 00:12:05,109 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-25 00:12:11,647 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-25 00:12:11,647 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:12:11,647 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:12:11,647 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-25 00:12:11,647 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-25 00:12:11,647 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:12:11,647 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:12:11,648 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-25 00:12:11,648 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-25 00:12:11,648 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-25 00:12:11,648 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-25 00:12:11,648 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-25 00:12:11,648 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:12:11,651 - git.git - INFO - Running command: git pull
+2025-01-25 00:12:11,652 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 00:12:11,653 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-25 00:12:11,658 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:12:11,662 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:12:11,666 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:12:11,669 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 00:12:11,674 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:12:11,679 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-25 00:12:11,681 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-25 00:12:11,681 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 00:12:11,681 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-25 00:12:11,681 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-25 00:12:14,404 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-25 00:12:14,404 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-25 00:12:14,404 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-25 00:12:14,405 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-25 00:12:14,405 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:12:14,407 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:12:15,338 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 00:12:18,033 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-25 00:12:18,037 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-25 00:12:18,037 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-25 00:12:18,041 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.6 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", 'Merged in test (pull request #2)', 'ENH: add test', 'Merged in test (pull request #1)', 'test2', 'test']
+2025-01-25 00:12:18,043 - git.git - INFO - Running command: git status
+2025-01-25 00:12:18,048 - git.git - INFO - Running command: git status
+2025-01-25 00:12:18,052 - git.git - INFO - Running command: git status
+2025-01-25 00:12:18,057 - git.git - INFO - Running command: git status
+2025-01-25 00:14:07,509 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-25 00:14:07,530 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:14:07,537 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-25 00:14:07,538 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-25 00:14:07,540 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-25 00:14:07,543 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-25 00:14:07,548 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-25 00:14:07,622 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-25 00:14:07,625 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-25 00:14:07,628 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-25 00:14:07,630 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-25 00:14:14,325 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-25 00:14:14,326 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:14:14,326 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:14:14,326 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-25 00:14:14,326 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-25 00:14:14,326 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:14:14,326 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:14:14,326 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-25 00:14:14,327 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-25 00:14:14,327 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-25 00:14:14,327 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-25 00:14:14,327 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-25 00:14:14,327 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:14:14,331 - git.git - INFO - Running command: git pull
+2025-01-25 00:14:14,334 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 00:14:14,335 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-25 00:14:14,341 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:14:14,344 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:14:14,347 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:14:14,351 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 00:14:14,353 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:14:14,356 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-25 00:14:14,357 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-25 00:14:14,357 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 00:14:14,357 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-25 00:14:14,357 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-25 00:14:15,334 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-25 00:14:15,334 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-25 00:14:15,334 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-25 00:14:15,335 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-25 00:14:15,335 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:14:15,337 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:14:16,646 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 00:14:19,482 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-25 00:14:19,485 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-25 00:14:19,485 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-25 00:14:19,487 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.6 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", 'Merged in test (pull request #2)', 'ENH: add test', 'Merged in test (pull request #1)', 'test2', 'test']
+2025-01-25 00:14:19,488 - git.git - INFO - Running command: git status
+2025-01-25 00:14:19,491 - git.git - INFO - Running command: git status
+2025-01-25 00:14:19,494 - git.git - INFO - Running command: git status
+2025-01-25 00:14:19,497 - git.git - INFO - Running command: git status
+2025-01-25 00:16:45,973 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-25 00:16:45,991 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:16:45,995 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-25 00:16:45,996 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-25 00:16:45,997 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-25 00:16:46,001 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-25 00:16:46,004 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-25 00:16:46,069 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-25 00:16:46,073 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-25 00:16:46,076 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-25 00:16:46,077 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-25 00:16:54,052 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-25 00:16:54,052 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:16:54,052 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:16:54,052 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-25 00:16:54,052 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-25 00:16:54,053 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:16:54,053 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:16:54,053 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-25 00:16:54,053 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-25 00:16:54,053 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-25 00:16:54,053 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-25 00:16:54,054 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-25 00:16:54,054 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:16:54,057 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 00:16:54,057 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-25 00:16:54,064 - git.git - INFO - Running command: git pull
+2025-01-25 00:16:54,068 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:16:54,072 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:16:54,076 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:16:54,079 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 00:16:54,082 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:16:54,085 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-25 00:16:54,086 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-25 00:16:54,086 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 00:16:54,086 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-25 00:16:54,086 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-25 00:16:55,400 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-25 00:16:55,400 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-25 00:16:55,400 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-25 00:16:55,400 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-25 00:16:55,401 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:16:55,403 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:16:56,230 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 00:16:58,888 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-25 00:16:58,893 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-25 00:16:58,893 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-25 00:16:58,898 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.6 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", 'Merged in test (pull request #2)', 'ENH: add test', 'Merged in test (pull request #1)', 'test2', 'test']
+2025-01-25 00:16:58,899 - git.git - INFO - Running command: git status
+2025-01-25 00:16:58,904 - git.git - INFO - Running command: git status
+2025-01-25 00:16:58,907 - git.git - INFO - Running command: git status
+2025-01-25 00:16:58,911 - git.git - INFO - Running command: git status
+2025-01-25 00:18:53,068 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-25 00:18:53,084 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:18:53,089 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-25 00:18:53,089 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-25 00:18:53,092 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-25 00:18:53,094 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-25 00:18:53,096 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-25 00:18:53,173 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-25 00:18:53,174 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-25 00:18:53,178 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-25 00:18:53,178 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-25 00:19:02,334 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-25 00:19:02,335 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:19:02,335 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:19:02,335 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-25 00:19:02,335 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-25 00:19:02,336 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:19:02,336 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:19:02,336 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-25 00:19:02,336 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-25 00:19:02,336 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-25 00:19:02,337 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-25 00:19:02,337 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-25 00:19:02,338 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:19:02,344 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 00:19:02,345 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-25 00:19:02,351 - git.git - INFO - Running command: git pull
+2025-01-25 00:19:02,354 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:19:02,357 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:19:02,361 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:19:02,364 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 00:19:02,367 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:19:02,369 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-25 00:19:02,371 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-25 00:19:02,371 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 00:19:02,371 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-25 00:19:02,371 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-25 00:19:03,723 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-25 00:19:03,723 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-25 00:19:03,723 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-25 00:19:03,723 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-25 00:19:03,724 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:19:03,726 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:19:04,872 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 00:19:07,847 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-25 00:19:07,851 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-25 00:19:07,851 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-25 00:19:07,854 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.6 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", 'Merged in test (pull request #2)', 'ENH: add test', 'Merged in test (pull request #1)', 'test2', 'test']
+2025-01-25 00:19:07,855 - git.git - INFO - Running command: git status
+2025-01-25 00:19:07,859 - git.git - INFO - Running command: git status
+2025-01-25 00:19:07,862 - git.git - INFO - Running command: git status
+2025-01-25 00:19:07,865 - git.git - INFO - Running command: git status
+2025-01-25 00:20:35,660 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-25 00:20:35,677 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:20:35,681 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-25 00:20:35,682 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-25 00:20:35,683 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-25 00:20:35,686 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-25 00:20:35,688 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-25 00:20:35,753 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-25 00:20:35,754 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-25 00:20:35,758 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-25 00:20:35,760 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-25 00:20:44,080 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-25 00:20:44,080 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:20:44,080 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:20:44,080 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-25 00:20:44,080 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-25 00:20:44,081 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:20:44,081 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:20:44,081 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-25 00:20:44,081 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-25 00:20:44,081 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-25 00:20:44,081 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-25 00:20:44,081 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-25 00:20:44,081 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:20:44,083 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 00:20:44,083 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-25 00:20:44,087 - git.git - INFO - Running command: git pull
+2025-01-25 00:20:44,089 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:20:44,092 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:20:44,094 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:20:44,097 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 00:20:44,099 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:20:44,102 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-25 00:20:44,103 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-25 00:20:44,103 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 00:20:44,103 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-25 00:20:44,103 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-25 00:20:45,810 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-25 00:20:45,810 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-25 00:20:45,811 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-25 00:20:45,811 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-25 00:20:45,812 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:20:45,815 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:20:46,912 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 00:20:49,580 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-25 00:20:49,585 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-25 00:20:49,586 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-25 00:20:49,592 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.6 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", 'Merged in test (pull request #2)', 'ENH: add test', 'Merged in test (pull request #1)', 'test2', 'test']
+2025-01-25 00:20:49,593 - git.git - INFO - Running command: git status
+2025-01-25 00:20:49,596 - git.git - INFO - Running command: git status
+2025-01-25 00:20:49,600 - git.git - INFO - Running command: git status
+2025-01-25 00:20:49,603 - git.git - INFO - Running command: git status
+2025-01-25 00:22:24,769 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-25 00:22:24,794 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:22:24,799 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-25 00:22:24,800 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-25 00:22:24,802 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-25 00:22:24,805 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-25 00:22:24,809 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-25 00:22:24,889 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-25 00:22:24,892 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-25 00:22:24,894 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-25 00:22:24,899 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-25 00:22:31,380 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-25 00:22:31,380 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:22:31,380 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:22:31,380 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-25 00:22:31,380 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-25 00:22:31,381 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:22:31,381 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:22:31,381 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-25 00:22:31,381 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-25 00:22:31,381 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-25 00:22:31,381 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-25 00:22:31,381 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-25 00:22:31,381 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:22:31,383 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 00:22:31,383 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-25 00:22:31,386 - git.git - INFO - Running command: git pull
+2025-01-25 00:22:31,388 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:22:31,390 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:22:31,394 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:22:31,399 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 00:22:31,403 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:22:31,407 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-25 00:22:31,409 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-25 00:22:31,409 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 00:22:31,410 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-25 00:22:31,410 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-25 00:22:32,502 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-25 00:22:32,502 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-25 00:22:32,503 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-25 00:22:32,503 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-25 00:22:32,504 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:22:32,508 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:22:34,421 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 00:22:37,115 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-25 00:22:37,117 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-25 00:22:37,117 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-25 00:22:37,119 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.6 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", 'Merged in test (pull request #2)', 'ENH: add test', 'Merged in test (pull request #1)', 'test2', 'test']
+2025-01-25 00:22:37,120 - git.git - INFO - Running command: git status
+2025-01-25 00:22:37,123 - git.git - INFO - Running command: git status
+2025-01-25 00:22:37,126 - git.git - INFO - Running command: git status
+2025-01-25 00:22:37,129 - git.git - INFO - Running command: git status
+2025-01-25 00:25:42,553 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-25 00:25:42,576 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:25:42,583 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-25 00:25:42,583 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-25 00:25:42,586 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-25 00:25:42,589 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-25 00:25:42,593 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-25 00:25:42,677 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-25 00:25:42,679 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-25 00:25:42,681 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-25 00:25:42,682 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-25 00:25:50,477 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-25 00:25:50,477 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:25:50,477 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:25:50,477 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-25 00:25:50,477 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-25 00:25:50,477 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:25:50,478 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:25:50,478 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-25 00:25:50,478 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-25 00:25:50,478 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-25 00:25:50,478 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-25 00:25:50,478 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-25 00:25:50,478 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:25:50,481 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 00:25:50,482 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-25 00:25:50,484 - git.git - INFO - Running command: git pull
+2025-01-25 00:25:50,487 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:25:50,491 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:25:50,496 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:25:50,500 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 00:25:50,503 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:25:50,506 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-25 00:25:50,507 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-25 00:25:50,507 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 00:25:50,507 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-25 00:25:50,507 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-25 00:25:51,727 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-25 00:25:51,727 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-25 00:25:51,728 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-25 00:25:51,730 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-25 00:25:51,730 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:25:51,733 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:25:51,736 - dialogs.pr_dialog - WARNING - Failed to process audiostreamingmanager: 'DataLoadWorker' object has no attribute 'select_head_tag'
+2025-01-25 00:25:51,736 - git.git - INFO - Running command: git status
+2025-01-25 00:25:51,739 - git.git - INFO - Running command: git status
+2025-01-25 00:25:51,743 - git.git - INFO - Running command: git status
+2025-01-25 00:25:51,746 - git.git - INFO - Running command: git status
+2025-01-25 00:26:59,535 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-25 00:26:59,553 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:26:59,557 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-25 00:26:59,557 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-25 00:26:59,559 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-25 00:26:59,561 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-25 00:26:59,563 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-25 00:26:59,623 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-25 00:26:59,625 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-25 00:26:59,625 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-25 00:26:59,629 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-25 00:27:13,621 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-25 00:27:13,621 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:27:13,621 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:27:13,621 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-25 00:27:13,622 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-25 00:27:13,622 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:27:13,622 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:27:13,622 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-25 00:27:13,622 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-25 00:27:13,622 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-25 00:27:13,623 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-25 00:27:13,623 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-25 00:27:13,623 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:27:13,626 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 00:27:13,627 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-25 00:27:13,634 - git.git - INFO - Running command: git pull
+2025-01-25 00:27:13,637 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:27:13,640 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:27:13,643 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:27:13,646 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 00:27:13,649 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:27:13,651 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-25 00:27:13,652 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-25 00:27:13,652 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 00:27:13,652 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-25 00:27:13,652 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-25 00:27:14,920 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-25 00:27:14,921 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-25 00:27:14,921 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-25 00:27:14,925 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-25 00:27:14,926 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:27:14,928 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:27:14,931 - dialogs.pr_dialog - WARNING - Failed to process audiostreamingmanager: 'DataLoadWorker' object has no attribute 'select_head_tag'
+2025-01-25 00:27:14,931 - git.git - INFO - Running command: git status
+2025-01-25 00:27:14,935 - git.git - INFO - Running command: git status
+2025-01-25 00:27:14,938 - git.git - INFO - Running command: git status
+2025-01-25 00:27:14,942 - git.git - INFO - Running command: git status
+2025-01-25 00:28:33,391 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-25 00:28:33,408 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:28:33,412 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-25 00:28:33,412 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-25 00:28:33,414 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-25 00:28:33,416 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-25 00:28:33,419 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-25 00:28:33,476 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-25 00:28:33,477 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-25 00:28:33,481 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-25 00:28:33,484 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-25 00:28:41,512 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-25 00:28:41,512 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:28:41,516 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:28:41,516 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-25 00:28:41,516 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-25 00:28:41,517 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:28:41,517 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:28:41,517 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-25 00:28:41,517 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-25 00:28:41,517 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-25 00:28:41,517 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-25 00:28:41,517 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-25 00:28:41,518 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:28:41,521 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 00:28:41,521 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-25 00:28:41,528 - git.git - INFO - Running command: git pull
+2025-01-25 00:28:41,531 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:28:41,535 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:28:41,539 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:28:41,543 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 00:28:41,546 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:28:41,550 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-25 00:28:41,551 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-25 00:28:41,551 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 00:28:41,552 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-25 00:28:41,552 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-25 00:28:42,991 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-25 00:28:42,992 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-25 00:28:42,992 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-25 00:28:42,994 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-25 00:28:42,995 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:28:42,998 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:28:58,955 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 00:29:01,962 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-25 00:29:01,971 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-25 00:29:01,972 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-25 00:29:01,978 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.6 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", 'Merged in test (pull request #2)', 'ENH: add test', 'Merged in test (pull request #1)', 'test2', 'test']
+2025-01-25 00:29:01,978 - git.git - INFO - Running command: git status
+2025-01-25 00:29:01,984 - git.git - INFO - Running command: git status
+2025-01-25 00:29:01,989 - git.git - INFO - Running command: git status
+2025-01-25 00:29:01,993 - git.git - INFO - Running command: git status
+2025-01-25 00:31:53,998 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-25 00:31:54,025 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:31:54,029 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-25 00:31:54,029 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-25 00:31:54,032 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-25 00:31:54,035 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-25 00:31:54,039 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-25 00:31:54,107 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-25 00:31:54,110 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-25 00:31:54,111 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-25 00:31:54,111 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-25 00:32:01,584 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-25 00:32:01,584 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:32:01,584 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:32:01,584 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-25 00:32:01,584 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-25 00:32:01,585 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:32:01,585 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:32:01,585 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-25 00:32:01,585 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-25 00:32:01,585 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-25 00:32:01,585 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-25 00:32:01,586 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-25 00:32:01,586 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:32:01,589 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 00:32:01,590 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-25 00:32:01,595 - git.git - INFO - Running command: git pull
+2025-01-25 00:32:01,599 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:32:01,603 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:32:01,607 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:32:01,611 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 00:32:01,613 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:32:01,616 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-25 00:32:01,617 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-25 00:32:01,617 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 00:32:01,617 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-25 00:32:01,617 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-25 00:32:04,464 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-25 00:32:04,465 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-25 00:32:04,465 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-25 00:32:04,469 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:32:04,471 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 00:32:07,359 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-25 00:32:07,367 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-25 00:32:07,368 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-25 00:32:07,374 - git.git - INFO - Running command: git status
+2025-01-25 00:32:07,379 - git.git - INFO - Running command: git status
+2025-01-25 00:32:07,385 - git.git - INFO - Running command: git status
+2025-01-25 00:32:07,388 - git.git - INFO - Running command: git status
+2025-01-25 00:32:15,343 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 00:32:16,313 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 00:36:30,224 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-25 00:36:30,242 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:36:30,247 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-25 00:36:30,247 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-25 00:36:30,249 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-25 00:36:30,251 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-25 00:36:30,253 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-25 00:36:30,318 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-25 00:36:30,320 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-25 00:36:30,322 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-25 00:36:30,324 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-25 00:36:37,341 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-25 00:36:37,342 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:36:37,342 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:36:37,342 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-25 00:36:37,342 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-25 00:36:37,342 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:36:37,343 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:36:37,343 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-25 00:36:37,343 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-25 00:36:37,343 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-25 00:36:37,343 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-25 00:36:37,343 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-25 00:36:37,344 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:36:37,348 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 00:36:37,349 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-25 00:36:37,354 - git.git - INFO - Running command: git pull
+2025-01-25 00:36:37,356 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:36:37,358 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:36:37,362 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:36:37,365 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 00:36:37,367 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:36:37,369 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-25 00:36:37,370 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-25 00:36:37,370 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 00:36:37,370 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-25 00:36:37,370 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-25 00:36:39,271 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 00:36:42,391 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 00:36:43,233 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-25 00:36:43,233 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-25 00:36:43,234 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-25 00:36:43,238 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:36:43,242 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 00:36:46,106 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-25 00:36:46,109 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-25 00:36:46,109 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-25 00:36:46,112 - git.git - INFO - Running command: git status
+2025-01-25 00:36:46,117 - git.git - INFO - Running command: git status
+2025-01-25 00:36:46,120 - git.git - INFO - Running command: git status
+2025-01-25 00:36:46,123 - git.git - INFO - Running command: git status
+2025-01-25 00:38:27,860 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-25 00:38:27,881 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:38:27,886 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-25 00:38:27,886 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-25 00:38:27,888 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-25 00:38:27,890 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-25 00:38:27,893 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-25 00:38:27,955 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-25 00:38:27,958 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-25 00:38:27,958 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-25 00:38:27,958 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-25 00:38:34,704 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-25 00:38:34,705 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:38:34,705 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:38:34,705 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-25 00:38:34,705 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-25 00:38:34,705 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:38:34,705 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:38:34,706 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-25 00:38:34,706 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-25 00:38:34,706 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-25 00:38:34,706 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-25 00:38:34,707 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-25 00:38:34,707 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:38:34,712 - git.git - INFO - Running command: git pull
+2025-01-25 00:38:34,715 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 00:38:34,715 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-25 00:38:34,723 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:38:34,726 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:38:34,730 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:38:34,734 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 00:38:34,737 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:38:34,740 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-25 00:38:34,741 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-25 00:38:34,741 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 00:38:34,741 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-25 00:38:34,741 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-25 00:38:38,033 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-25 00:38:38,034 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-25 00:38:38,034 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: @s6mobis
+2025-01-25 00:38:38,038 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:38:38,042 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 00:38:40,722 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-25 00:38:40,725 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-25 00:38:40,725 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-25 00:38:40,728 - git.git - INFO - Running command: git status
+2025-01-25 00:38:40,732 - git.git - INFO - Running command: git status
+2025-01-25 00:38:40,736 - git.git - INFO - Running command: git status
+2025-01-25 00:38:40,740 - git.git - INFO - Running command: git status
+2025-01-25 00:45:25,164 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-25 00:45:25,188 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:45:25,194 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-25 00:45:25,194 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-25 00:45:25,196 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-25 00:45:25,199 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-25 00:45:25,201 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-25 00:45:25,271 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-25 00:45:25,272 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-25 00:45:25,277 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-25 00:45:25,278 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-25 00:45:32,387 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-25 00:45:32,387 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:45:32,387 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['s6mobis_test_1', '@s6mobis']
+2025-01-25 00:45:32,387 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 2, Valid: True
+2025-01-25 00:45:32,388 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-25 00:45:32,388 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:45:32,388 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['s6mobis_test_1', '@s6mobis']
+2025-01-25 00:45:32,388 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 2 branches
+2025-01-25 00:45:32,388 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['s6mobis_test_1', '@s6mobis']
+2025-01-25 00:45:32,388 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: s6mobis_test_1
+2025-01-25 00:45:32,388 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to s6mobis_test_1
+2025-01-25 00:45:32,389 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: s6mobis_test_1
+2025-01-25 00:45:32,389 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:45:32,393 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: s6mobis_test_1: expanded
+2025-01-25 00:45:32,393 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-25 00:45:32,398 - git.git - INFO - Running command: git checkout s6mobis_test_1
+2025-01-25 00:45:32,401 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:45:32,406 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:45:32,407 - git.git - INFO - Running command: git pull
+2025-01-25 00:45:32,409 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:45:32,412 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 00:45:32,415 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:45:32,418 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-25 00:45:32,419 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch s6mobis_test_1 status: (1 changes)
+2025-01-25 00:45:32,419 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: s6mobis_test_1: collapsed
+2025-01-25 00:45:32,419 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for s6mobis_test_1
+2025-01-25 00:45:32,419 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: s6mobis_test_1
+2025-01-25 00:45:32,420 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-25 00:45:32,420 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-25 00:45:32,420 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-25 00:45:32,420 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:45:32,422 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 00:45:32,423 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-25 00:45:32,426 - git.git - INFO - Running command: git checkout @s6mobis
+2025-01-25 00:45:32,428 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:45:32,430 - git.git - INFO - Running command: git pull
+2025-01-25 00:45:32,433 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:45:32,437 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:45:32,442 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 00:45:32,451 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:45:32,456 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-25 00:45:32,458 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-25 00:45:32,458 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 00:45:32,459 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-25 00:45:32,459 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-25 00:45:33,656 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: s6mobis_test_1
+2025-01-25 00:45:33,657 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for s6mobis_test_1: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-25 00:45:33,657 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: s6mobis_test_1
+2025-01-25 00:45:33,657 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-25 00:45:33,662 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:45:33,665 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:45:39,124 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 00:45:41,997 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-25 00:45:41,999 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-25 00:45:41,999 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-25 00:45:42,002 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.6 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", 'Merged in test (pull request #2)', 'ENH: add test', 'Merged in test (pull request #1)', 'test2', 'test']
+2025-01-25 00:45:42,002 - git.git - INFO - Running command: git status
+2025-01-25 00:45:42,005 - git.git - INFO - Running command: git status
+2025-01-25 00:45:42,008 - git.git - INFO - Running command: git status
+2025-01-25 00:45:42,011 - git.git - INFO - Running command: git status
+2025-01-25 00:48:56,975 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-25 00:48:56,997 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:48:57,001 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-25 00:48:57,001 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-25 00:48:57,003 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-25 00:48:57,005 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-25 00:48:57,007 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-25 00:48:57,068 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-25 00:48:57,070 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-25 00:48:57,070 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-25 00:48:57,075 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-25 00:49:04,313 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-25 00:49:04,314 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:49:04,314 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:49:04,314 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 1, Branches: 1, Valid: True
+2025-01-25 00:49:04,314 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-25 00:49:04,314 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 00:49:04,314 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['@s6mobis']
+2025-01-25 00:49:04,314 - widgets.auto_pr_tab - INFO - Moving to version input with 1 recipes and 1 branches
+2025-01-25 00:49:04,314 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['@s6mobis']
+2025-01-25 00:49:04,314 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-25 00:49:04,314 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-25 00:49:04,315 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-25 00:49:04,315 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:49:04,318 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 00:49:04,318 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-25 00:49:04,321 - git.git - INFO - Running command: git pull
+2025-01-25 00:49:04,324 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:49:04,326 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 00:49:04,329 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:49:04,332 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 00:49:04,335 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 00:49:04,337 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-25 00:49:04,338 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-25 00:49:04,338 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 00:49:04,338 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-25 00:49:04,339 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-25 00:49:05,535 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: @s6mobis
+2025-01-25 00:49:05,536 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for @s6mobis: {('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-25 00:49:05,541 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 00:49:05,545 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 00:49:08,240 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-25 00:49:08,249 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-25 00:49:08,250 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-25 00:49:08,260 - git.git - INFO - Running command: git status
+2025-01-25 00:49:08,266 - git.git - INFO - Running command: git status
+2025-01-25 00:49:08,271 - git.git - INFO - Running command: git status
+2025-01-25 00:49:08,276 - git.git - INFO - Running command: git status
+2025-01-25 00:53:00,763 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-25 00:53:00,786 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:53:00,792 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-25 00:53:00,792 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-25 00:53:00,794 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-25 00:53:00,796 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-25 00:53:00,799 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-25 00:53:00,860 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-25 00:53:00,863 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-25 00:53:00,866 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-25 00:53:00,866 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-25 00:53:08,033 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:53:08,035 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:53:08,037 - git.git - INFO - Running command: git pull
+2025-01-25 00:53:10,730 - widgets.recipe_versions_tab - INFO - Finished loading recipe versions
+2025-01-25 00:53:12,912 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:53:12,914 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:53:12,916 - git.git - INFO - Running command: git pull
+2025-01-25 00:53:15,657 - widgets.recipe_versions_tab - INFO - Finished loading recipe versions
+2025-01-25 00:53:16,573 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:53:16,575 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:53:16,577 - git.git - INFO - Running command: git checkout s6mobis_test_1
+2025-01-25 00:53:16,581 - git.git - INFO - Running command: git pull
+2025-01-25 00:53:19,679 - widgets.recipe_versions_tab - INFO - Finished loading recipe versions
+2025-01-25 00:53:19,690 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:53:19,692 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:53:19,695 - git.git - INFO - Running command: git pull
+2025-01-25 00:53:22,707 - widgets.recipe_versions_tab - INFO - Finished loading recipe versions
+2025-01-25 00:53:25,113 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:53:25,115 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:53:25,117 - git.git - INFO - Running command: git checkout @s6mobis
+2025-01-25 00:53:25,121 - git.git - INFO - Running command: git pull
+2025-01-25 00:53:27,863 - widgets.recipe_versions_tab - INFO - Finished loading recipe versions
+2025-01-25 00:53:29,932 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:53:29,933 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:53:29,936 - git.git - INFO - Running command: git checkout s6mobis_test_1
+2025-01-25 00:53:29,939 - git.git - INFO - Running command: git pull
+2025-01-25 00:53:32,680 - widgets.recipe_versions_tab - INFO - Finished loading recipe versions
+2025-01-25 00:53:52,613 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 00:53:52,615 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 00:53:52,617 - git.git - INFO - Running command: git checkout @s6mobis
+2025-01-25 00:53:52,620 - git.git - INFO - Running command: git pull
+2025-01-25 00:53:55,320 - widgets.recipe_versions_tab - INFO - Finished loading recipe versions
+2025-01-25 10:37:53,964 - widgets.recipe_versions_tab - DEBUG - Initializing RecipeVersionsTab
+2025-01-25 10:37:53,988 - widgets.recipe_versions_tab - INFO - Loading recipe versions
+2025-01-25 10:37:53,994 - widgets.auto_pr_tab - DEBUG - Initializing AutoPRTab
+2025-01-25 10:37:53,994 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing SelectionPage
+2025-01-25 10:37:53,997 - widgets.auto_pr_pages.selection_page - DEBUG - Initializing BranchSearchBar
+2025-01-25 10:37:53,999 - widgets.auto_pr_pages.selection_page - DEBUG - Updating branch list with 2 branches
+2025-01-25 10:37:54,001 - widgets.auto_pr_pages.message_input_page - DEBUG - Initializing MessageInputPage
+2025-01-25 10:37:54,055 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git cinemoplayerservice
+2025-01-25 10:37:54,056 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.audiostreamingmanager.git audiostreamingmanager
+2025-01-25 10:37:54,064 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/ccos.app.manager.cinemocloudmanager.git cinemocloudmanager
+2025-01-25 10:37:54,066 - git.git - INFO - Running command: git clone -b @s6mobis git@bitbucket.org:ssong96/meta-ccos-avn.git
+2025-01-25 10:38:14,360 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 0
+2025-01-25 10:38:14,361 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'cinemoplayerservice'), ('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 10:38:14,361 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['s6mobis_test_1', '@s6mobis']
+2025-01-25 10:38:14,361 - widgets.auto_pr_pages.selection_page - INFO - Selection validation - Recipes: 3, Branches: 2, Valid: True
+2025-01-25 10:38:14,361 - widgets.auto_pr_tab - INFO - Current page (SelectionPage) validation: True
+2025-01-25 10:38:14,361 - widgets.auto_pr_pages.selection_page - DEBUG - Selected recipes: [('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'cinemoplayerservice'), ('meta-ccos-avn', 'audiostreamingmanager')]
+2025-01-25 10:38:14,361 - widgets.auto_pr_pages.selection_page - DEBUG - Selected branches: ['s6mobis_test_1', '@s6mobis']
+2025-01-25 10:38:14,361 - widgets.auto_pr_tab - INFO - Moving to version input with 3 recipes and 2 branches
+2025-01-25 10:38:14,362 - widgets.auto_pr_pages.version_input_page - DEBUG - Updating recipes: [('meta-ccos-avn', 'cinemocloudmanager'), ('meta-ccos-avn', 'cinemoplayerservice'), ('meta-ccos-avn', 'audiostreamingmanager')] for branches: ['s6mobis_test_1', '@s6mobis']
+2025-01-25 10:38:14,362 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: s6mobis_test_1
+2025-01-25 10:38:14,362 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to s6mobis_test_1
+2025-01-25 10:38:14,362 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to s6mobis_test_1
+2025-01-25 10:38:14,362 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 10:38:14,365 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to s6mobis_test_1
+2025-01-25 10:38:14,365 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 10:38:14,368 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: s6mobis_test_1
+2025-01-25 10:38:14,369 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 10:38:14,371 - git.git - INFO - Running command: git checkout s6mobis_test_1
+2025-01-25 10:38:14,372 - git.git - INFO - Running command: git checkout s6mobis_test_1
+2025-01-25 10:38:14,381 - git.git - INFO - Running command: git checkout s6mobis_test_1
+2025-01-25 10:38:14,383 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: s6mobis_test_1: expanded
+2025-01-25 10:38:14,384 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/cinemocloudmanager
+2025-01-25 10:38:14,384 - git.git - ERROR - Git command failed: fatal: cannot lock ref 'refs/heads/s6mobis_test_1': reference already exists
+
+2025-01-25 10:38:14,391 - git.git - INFO - Running command: git pull
+2025-01-25 10:38:14,391 - git.git - INFO - Running command: git pull
+2025-01-25 10:38:14,395 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 10:38:14,397 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 10:38:14,400 - git.git - INFO - Running command: git rev-list --count version/1..HEAD
+2025-01-25 10:38:14,403 - git.git - ERROR - Git command failed: fatal: ambiguous argument 'version/1..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-01-25 10:38:14,403 - git.git - ERROR - Error getting commit count: Command '['git', 'rev-list', '--count', 'version/1..HEAD']' returned non-zero exit status 128.
+2025-01-25 10:38:14,404 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 10:38:14,406 - git.git - INFO - Running command: git rev-list --count version/1..HEAD
+2025-01-25 10:38:14,408 - git.git - ERROR - Git command failed: fatal: ambiguous argument 'version/1..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-01-25 10:38:14,409 - git.git - ERROR - Error getting commit count: Command '['git', 'rev-list', '--count', 'version/1..HEAD']' returned non-zero exit status 128.
+2025-01-25 10:38:14,410 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/cinemoplayerservice
+2025-01-25 10:38:14,418 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 10:38:14,425 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 10:38:14,430 - git.git - INFO - Running command: git rev-list --count N/A..HEAD
+2025-01-25 10:38:14,435 - git.git - ERROR - Git command failed: fatal: ambiguous argument 'N/A..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-01-25 10:38:14,435 - git.git - ERROR - Error getting commit count: Command '['git', 'rev-list', '--count', 'N/A..HEAD']' returned non-zero exit status 128.
+2025-01-25 10:38:14,436 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 10:38:14,439 - git.git - INFO - Running command: git rev-list --count N/A..HEAD
+2025-01-25 10:38:14,443 - git.git - ERROR - Git command failed: fatal: ambiguous argument 'N/A..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-01-25 10:38:14,443 - git.git - ERROR - Error getting commit count: Command '['git', 'rev-list', '--count', 'N/A..HEAD']' returned non-zero exit status 128.
+2025-01-25 10:38:14,444 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-25 10:38:14,446 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 10:38:14,449 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 10:38:14,452 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 10:38:14,455 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 10:38:14,458 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 10:38:14,461 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-25 10:38:14,461 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch s6mobis_test_1 status: (1 changes)
+2025-01-25 10:38:14,462 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: s6mobis_test_1: collapsed
+2025-01-25 10:38:14,462 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for s6mobis_test_1
+2025-01-25 10:38:14,462 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: s6mobis_test_1
+2025-01-25 10:38:14,464 - widgets.auto_pr_pages.version_input_page - DEBUG - Processing branch: @s6mobis
+2025-01-25 10:38:14,465 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-25 10:38:14,465 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-25 10:38:14,465 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 10:38:14,467 - widgets.auto_pr_pages.version_input_page - DEBUG - Checking out meta-ccos-avn to @s6mobis
+2025-01-25 10:38:14,468 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 10:38:14,469 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 10:38:14,470 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating CollapsibleBox with title: Branch: @s6mobis
+2025-01-25 10:38:14,471 - git.git - INFO - Running command: git checkout @s6mobis
+2025-01-25 10:38:14,475 - git.git - INFO - Running command: git checkout @s6mobis
+2025-01-25 10:38:14,478 - git.git - INFO - Running command: git checkout @s6mobis
+2025-01-25 10:38:14,480 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 10:38:14,482 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/cinemocloudmanager
+2025-01-25 10:38:14,484 - git.git - INFO - Running command: git pull
+2025-01-25 10:38:14,485 - git.git - INFO - Running command: git pull
+2025-01-25 10:38:14,488 - git.git - INFO - Running command: git pull
+2025-01-25 10:38:14,494 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 10:38:14,498 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 10:38:14,509 - git.git - INFO - Running command: git rev-list --count version/1..HEAD
+2025-01-25 10:38:14,519 - git.git - ERROR - Git command failed: fatal: ambiguous argument 'version/1..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-01-25 10:38:14,519 - git.git - ERROR - Error getting commit count: Command '['git', 'rev-list', '--count', 'version/1..HEAD']' returned non-zero exit status 128.
+2025-01-25 10:38:14,520 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 10:38:14,524 - git.git - INFO - Running command: git rev-list --count version/1..HEAD
+2025-01-25 10:38:14,529 - git.git - ERROR - Git command failed: fatal: ambiguous argument 'version/1..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-01-25 10:38:14,529 - git.git - ERROR - Error getting commit count: Command '['git', 'rev-list', '--count', 'version/1..HEAD']' returned non-zero exit status 128.
+2025-01-25 10:38:14,530 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/cinemoplayerservice
+2025-01-25 10:38:14,534 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 10:38:14,537 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 10:38:14,540 - git.git - INFO - Running command: git rev-list --count N/A..HEAD
+2025-01-25 10:38:14,543 - git.git - ERROR - Git command failed: fatal: ambiguous argument 'N/A..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-01-25 10:38:14,543 - git.git - ERROR - Error getting commit count: Command '['git', 'rev-list', '--count', 'N/A..HEAD']' returned non-zero exit status 128.
+2025-01-25 10:38:14,543 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 10:38:14,546 - git.git - INFO - Running command: git rev-list --count N/A..HEAD
+2025-01-25 10:38:14,548 - git.git - ERROR - Git command failed: fatal: ambiguous argument 'N/A..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-01-25 10:38:14,548 - git.git - ERROR - Error getting commit count: Command '['git', 'rev-list', '--count', 'N/A..HEAD']' returned non-zero exit status 128.
+2025-01-25 10:38:14,549 - widgets.auto_pr_pages.version_input_page - DEBUG - Creating input widget for meta-ccos-avn/audiostreamingmanager
+2025-01-25 10:38:14,552 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 10:38:14,554 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 10:38:14,557 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 10:38:14,560 - git.git - INFO - Running command: git tag --list version/*
+2025-01-25 10:38:14,562 - git.git - INFO - Running command: git rev-list --count version/0.0.1..HEAD
+2025-01-25 10:38:14,565 - widgets.auto_pr_pages.version_input_page - DEBUG - Changes detected in audiostreamingmanager
+2025-01-25 10:38:14,566 - widgets.auto_pr_pages.version_input_page - DEBUG - Branch @s6mobis status: (1 changes)
+2025-01-25 10:38:14,566 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 10:38:14,566 - widgets.auto_pr_pages.version_input_page - DEBUG - Enabling PR button for @s6mobis
+2025-01-25 10:38:14,567 - widgets.auto_pr_pages.version_input_page - DEBUG - Setting PR button enabled=True for Branch: @s6mobis
+2025-01-25 10:38:18,969 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: collapsed
+2025-01-25 10:38:20,929 - widgets.auto_pr_pages.version_input_page - DEBUG - Toggling Branch: @s6mobis: expanded
+2025-01-25 10:38:44,219 - widgets.auto_pr_tab - DEBUG - Moving to next page from index 1
+2025-01-25 10:38:44,219 - widgets.auto_pr_pages.version_input_page - DEBUG - Version input validation result: True
+2025-01-25 10:38:44,219 - widgets.auto_pr_tab - INFO - Current page (VersionInputPage) validation: True
+2025-01-25 10:38:44,219 - widgets.auto_pr_pages.version_input_page - DEBUG - Version info for meta-ccos-avn/cinemocloudmanager in s6mobis_test_1: ('HEAD', '@s6mobis')
+2025-01-25 10:38:44,219 - widgets.auto_pr_pages.version_input_page - DEBUG - Version info for meta-ccos-avn/cinemoplayerservice in s6mobis_test_1: ('HEAD', '@s6mobis')
+2025-01-25 10:38:44,219 - widgets.auto_pr_pages.version_input_page - DEBUG - Version info for meta-ccos-avn/audiostreamingmanager in s6mobis_test_1: ('HEAD', '@s6mobis')
+2025-01-25 10:38:44,219 - widgets.auto_pr_pages.version_input_page - DEBUG - Version info for meta-ccos-avn/cinemocloudmanager in @s6mobis: ('HEAD', '@s6mobis')
+2025-01-25 10:38:44,219 - widgets.auto_pr_pages.version_input_page - DEBUG - Version info for meta-ccos-avn/cinemoplayerservice in @s6mobis: ('HEAD', '@s6mobis')
+2025-01-25 10:38:44,219 - widgets.auto_pr_pages.version_input_page - DEBUG - Version info for meta-ccos-avn/audiostreamingmanager in @s6mobis: ('HEAD', '@s6mobis')
+2025-01-25 10:38:44,219 - git.git - INFO - Running command: git pull
+2025-01-25 10:38:44,220 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 10:38:44,222 - git.git - INFO - Running command: git pull
+2025-01-25 10:38:46,919 - git.git - INFO - Running command: git pull
+2025-01-25 10:38:46,920 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 10:38:46,923 - git.git - INFO - Running command: git checkout s6mobis_test_1
+2025-01-25 10:38:46,927 - git.git - INFO - Running command: git pull
+2025-01-25 10:38:49,890 - git.git - INFO - Running command: git pull
+2025-01-25 10:38:49,891 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 10:38:49,899 - git.git - INFO - Running command: git pull
+2025-01-25 10:38:52,737 - git.git - INFO - Running command: git pull
+2025-01-25 10:38:52,737 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 10:38:52,743 - git.git - INFO - Running command: git pull
+2025-01-25 10:38:55,407 - git.git - INFO - Running command: git pull
+2025-01-25 10:38:55,407 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 10:38:55,412 - git.git - INFO - Running command: git pull
+2025-01-25 10:38:58,313 - git.git - INFO - Running command: git pull
+2025-01-25 10:38:58,314 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 10:38:58,326 - git.git - INFO - Running command: git pull
+2025-01-25 10:39:01,031 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 10:39:04,864 - git.git - INFO - Running command: git log --pretty=format:%s version/1..HEAD
+2025-01-25 10:39:04,869 - git.git - ERROR - Git command failed: fatal: ambiguous argument 'version/1..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-01-25 10:39:04,869 - git.git - ERROR - Error getting commit messages: Command '['git', 'log', '--pretty=format:%s', 'version/1..HEAD']' returned non-zero exit status 128.
+2025-01-25 10:39:04,870 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 10:39:07,670 - git.git - INFO - Running command: git log --pretty=format:%s N/A..HEAD
+2025-01-25 10:39:07,675 - git.git - ERROR - Git command failed: fatal: ambiguous argument 'N/A..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-01-25 10:39:07,676 - git.git - ERROR - Error getting commit messages: Command '['git', 'log', '--pretty=format:%s', 'N/A..HEAD']' returned non-zero exit status 128.
+2025-01-25 10:39:07,676 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 10:39:10,359 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-25 10:39:10,363 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-25 10:39:10,365 - git.git - INFO - Running command: git pull
+2025-01-25 10:39:10,365 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 10:39:10,372 - git.git - INFO - Running command: git pull
+2025-01-25 10:39:13,055 - git.git - INFO - Running command: git pull
+2025-01-25 10:39:13,055 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 10:39:13,058 - git.git - INFO - Running command: git checkout @s6mobis
+2025-01-25 10:39:13,061 - git.git - INFO - Running command: git pull
+2025-01-25 10:39:15,744 - git.git - INFO - Running command: git pull
+2025-01-25 10:39:15,744 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 10:39:15,747 - git.git - INFO - Running command: git pull
+2025-01-25 10:39:18,482 - git.git - INFO - Running command: git pull
+2025-01-25 10:39:18,483 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 10:39:18,495 - git.git - INFO - Running command: git pull
+2025-01-25 10:39:21,229 - git.git - INFO - Running command: git pull
+2025-01-25 10:39:21,229 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 10:39:21,232 - git.git - INFO - Running command: git pull
+2025-01-25 10:39:23,922 - git.git - INFO - Running command: git pull
+2025-01-25 10:39:23,922 - git.git - INFO - Running command: git rev-parse --abbrev-ref HEAD
+2025-01-25 10:39:23,927 - git.git - INFO - Running command: git pull
+2025-01-25 10:39:26,590 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 10:39:29,450 - git.git - INFO - Running command: git log --pretty=format:%s version/1..HEAD
+2025-01-25 10:39:29,455 - git.git - ERROR - Git command failed: fatal: ambiguous argument 'version/1..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-01-25 10:39:29,455 - git.git - ERROR - Error getting commit messages: Command '['git', 'log', '--pretty=format:%s', 'version/1..HEAD']' returned non-zero exit status 128.
+2025-01-25 10:39:29,455 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 10:39:32,181 - git.git - INFO - Running command: git log --pretty=format:%s N/A..HEAD
+2025-01-25 10:39:32,183 - git.git - ERROR - Git command failed: fatal: ambiguous argument 'N/A..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-01-25 10:39:32,183 - git.git - ERROR - Error getting commit messages: Command '['git', 'log', '--pretty=format:%s', 'N/A..HEAD']' returned non-zero exit status 128.
+2025-01-25 10:39:32,183 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 10:39:34,906 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-25 10:39:34,912 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-25 10:39:41,340 - widgets.auto_pr_tab - DEBUG - Moving to previous page from index 2
+2025-01-25 10:39:43,639 - widgets.auto_pr_pages.version_input_page - DEBUG - Opening PR dialog for branch: s6mobis_test_1
+2025-01-25 10:39:43,639 - widgets.auto_pr_pages.version_input_page - DEBUG - Collected version info for s6mobis_test_1: {('meta-ccos-avn', 'cinemocloudmanager'): ('HEAD', '@s6mobis'), ('meta-ccos-avn', 'cinemoplayerservice'): ('HEAD', '@s6mobis'), ('meta-ccos-avn', 'audiostreamingmanager'): ('HEAD', '@s6mobis')}
+2025-01-25 10:39:43,639 - dialogs.pr_dialog - INFO - PRDialog initialized with branch: s6mobis_test_1
+2025-01-25 10:39:43,640 - dialogs.pr_dialog - INFO - Processing recipe: cinemocloudmanager
+2025-01-25 10:39:43,640 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 10:39:43,642 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 10:39:43,644 - utils.version_utils - ERROR - Failed to generate next version for : invalid literal for int() with base 10: ''
+2025-01-25 10:39:43,644 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 10:39:46,317 - git.git - INFO - Running command: git log --pretty=format:%s version/1..HEAD
+2025-01-25 10:39:46,319 - git.git - ERROR - Git command failed: fatal: ambiguous argument 'version/1..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-01-25 10:39:46,320 - git.git - ERROR - Error getting commit messages: Command '['git', 'log', '--pretty=format:%s', 'version/1..HEAD']' returned non-zero exit status 128.
+2025-01-25 10:39:46,320 - git.git - INFO - Running command: git log --pretty=format:%B version/1..HEAD
+2025-01-25 10:39:46,321 - git.git - ERROR - Git command failed: fatal: ambiguous argument 'version/1..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-01-25 10:39:46,322 - dialogs.pr_dialog - WARNING - Failed to process cinemocloudmanager: Command '['git', 'log', '--pretty=format:%B', 'version/1..HEAD']' returned non-zero exit status 128.
+2025-01-25 10:39:46,322 - dialogs.pr_dialog - INFO - Processing recipe: cinemoplayerservice
+2025-01-25 10:39:46,322 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 10:39:46,324 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 10:39:48,012 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 10:39:50,666 - git.git - INFO - Running command: git log --pretty=format:%s N/A..HEAD
+2025-01-25 10:39:50,668 - git.git - ERROR - Git command failed: fatal: ambiguous argument 'N/A..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-01-25 10:39:50,668 - git.git - ERROR - Error getting commit messages: Command '['git', 'log', '--pretty=format:%s', 'N/A..HEAD']' returned non-zero exit status 128.
+2025-01-25 10:39:50,668 - git.git - INFO - Running command: git log --pretty=format:%B N/A..HEAD
+2025-01-25 10:39:50,670 - git.git - ERROR - Git command failed: fatal: ambiguous argument 'N/A..HEAD': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
+2025-01-25 10:39:50,670 - dialogs.pr_dialog - WARNING - Failed to process cinemoplayerservice: Command '['git', 'log', '--pretty=format:%B', 'N/A..HEAD']' returned non-zero exit status 128.
+2025-01-25 10:39:50,670 - dialogs.pr_dialog - INFO - Processing recipe: audiostreamingmanager
+2025-01-25 10:39:50,671 - git.git - INFO - Running command: git tag --sort=-version:refname --list version/*
+2025-01-25 10:39:50,672 - git.git - INFO - Running command: git tag --points-at HEAD
+2025-01-25 10:39:54,993 - git.git - INFO - Running command: git fetch --all --tags
+2025-01-25 10:39:57,943 - git.git - INFO - Running command: git log --pretty=format:%s version/0.0.1..HEAD
+2025-01-25 10:39:57,953 - git.git - INFO - Commit messages between version/0.0.1 and HEAD: ENH: Update test string in test.cpp from 'test2' to 'test2aeee'
+Merged in test (pull request #2)
+ENH: add test
+Merged in test (pull request #1)
+test2
+test
+2025-01-25 10:39:57,954 - git.git - INFO - Running command: git log --pretty=format:%B version/0.0.1..HEAD
+2025-01-25 10:39:57,962 - dialogs.pr_dialog - INFO - Commits for audiostreamingmanager from version/0.0.6 to HEAD: ["ENH: Update test string in test.cpp from 'test2' to 'test2aeee'", 'Merged in test (pull request #2)', 'ENH: add test', 'Merged in test (pull request #1)', 'test2', 'test']
+2025-01-25 10:39:57,965 - git.git - INFO - Running command: git status
+2025-01-25 10:39:57,971 - git.git - INFO - Running command: git status
+2025-01-25 10:39:57,975 - git.git - INFO - Running command: git status
+2025-01-25 10:39:57,979 - git.git - INFO - Running command: git status
